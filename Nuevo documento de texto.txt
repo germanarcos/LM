@@ -1,0 +1,7 @@
+Download sublime 3
+https://packagecontrol.io/installation
+package control>Install	>Emmet
+			>BracketHighlighter
+			>Colorpicker
+			>SidebarEnhancements
+https:/docs.emmet.io/cheatsheet-a5.pdf
