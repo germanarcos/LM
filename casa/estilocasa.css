@@ -1,0 +1,21 @@
+div {
+  position: absolute;
+  border: solid black 3px;
+  padding: 5px;
+}
+div.casa {
+  height: 150px;
+  width: 200px;
+  background-color: grey;
+}
+#h1 {
+  top: 100px;
+  left: 150px;
+}
+div.tejado {
+  height: 30px;
+  width: 220px;
+  background-color: red;
+  top: -80px;
+  left: 0px;
+}
