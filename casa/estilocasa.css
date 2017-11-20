@@ -8,14 +8,35 @@ div.casa {
   width: 200px;
   background-color: grey;
 }
+div.puerta{
+	height:50px;
+	width:50px;
+	background-color:brown;
+	position: relative;
+	top:134px;
+	left:75px;
+}
 #h1 {
   top: 100px;
-  left: 150px;
+  left: 100px;
 }
 div.tejado {
+  position: relative;
   height: 30px;
   width: 220px;
   background-color: red;
-  top: -80px;
-  left: 0px;
+  top: -50px;
+  left: -17px;
+}
+div.ventana{
+	padding:23px;
+	top:60px;
+	left:35px;
+	background-color:blue;
+}
+div.ventana2{
+	padding:23px;
+	top: 60px;
+	left: 140px;
+	background-color:#00F;
 }
