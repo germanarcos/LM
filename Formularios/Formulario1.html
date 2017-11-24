@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel = "stylesheet" type="text/css" href = "F1.css" media = "screen"/>
+	<meta http-equiv="content-type" content="text/html; 
+charset=utf-8"/>
+	<meta name="description" content="Formulario 1"/>
+	<meta name="keywords" content="html, Lenguaje de Marcas, Formulario, 1,"/>
+	<meta name="author" content="Germán Arcos Aragón"/>
+	<title>Formulario 1</title>
+</head>
+<body>
+	<form action="" method="get">
+	<table  border="1">
+		<tr>
+			<th>Name</th>
+			<th>Value</th>
+		</tr>
+		<tr>
+			<td>Name</td>
+			<td><input type="text" name="nombre"></input></td>
+		</tr>
+		<tr>
+			<td>Sex</td>
+			<td><input type="radio" name="sexo" value ="Hombre"></input>Male<br/>
+				<input type="radio" name="sexo" value ="Mujer"></input>Female</td>
+		</tr>
+		<tr>
+			<td>Eye color</td>
+			<td><select name="OS">
+  			<option value="1">Green</option> 
+   			<option value="2">Brown</option> 
+   			<option value="3">Blue</option> 
+			</select></td>
+		</tr>
+		<tr>
+			<td>Check all that apply</td>
+			<td><label><input type="checkbox" id="cbox1" value="6"></input>Over 6 feet tall</label><br/>
+			<input type="checkbox" id="cbox2" value="200"></input> <label for="cbox2">Over 200 pounds</label></td>
+		</tr>
+		<tr>	
+			<td rowspan="2" colspan="2">Describe your athletic ability:<br/>
+				<textarea rows="4" cols="40">
+				</textarea></td>
+		</tr>				
+		<tr>
+		</tr>
+		<tr>
+			<td colspan="2" align="center">
+			<button type="submit" name="Enviar">Enter my information</button>
+			</td>
+		</tr>
+	</table>
+	</form>
+</body>
+</html>

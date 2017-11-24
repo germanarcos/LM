@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; 
+charset=utf-8"/>
+	<meta name="description" content="Formulario 3"/>
+	<meta name="keywords" content="html, Lenguaje de Marcas, Formulario 3,"/>
+	<meta name="author" content="Germán Arcos Aragón"/>
+	<title>Formulario 3</title>
+</head>
+<body>
+	<h1>Agregar Congreso</h1>
+	<form action=""method="get">
+		<table>
+			<tr>
+				<th>DATOS PRINCIPALES</th>
+			</tr>
+			<tr>
+				<td>Clave<br/> <input type="password" name="pass"></input></td>
+			</tr>
+			<tr>
+				<td>Nombre Completo<br/><input type="text" name="nombre"></input></td>
+				<td>Sede<br/><input type="text" name="sede"></input></td>
+				<td>Tipo de Evento<br/><select name="evento">
+  					<option value="1">Seleccione una opción</option> 
+   					<option value="2">Deportivo</option>
+   					<option value="3">Musical</option> 
+   					<option value="4">Teatro</option> 
+				</select></td>
+			</tr>
+			<tr>
+				<td>Fecha de Inicio<br/><input type="date" name="inicio"></input></td>
+				<td>Fecha de Termino<br/><input type="date" name="fin"></input></td>
+				<td>Fecha Larga<br/><input type="date" name="larga"></input></td>
+			</tr>
+			<tr>
+				<td rowspan="2" colspan="3">Descripción del Evento (No mayor a 500 caracteres)<br/><textarea rows="4" cols="73"></textarea></td>
+			</tr>
+			<tr>
+				<td> </td>
+			</tr>
+			<tr>
+				<th colspan="2" align="left">CONFIGURACIÓN GENERAL</th>
+			</tr>
+			<tr>
+				<td>Tipo de Moneda<br/><select name="moneda">
+  					<option value="4">Seleccione una opción</option> 
+   					<option value="5">Dólares</option>
+   					<option value="6">Euros</option>
+					<option value="7">Libras</option> 					
+				</select></td>
+				<td>Costo (incluyendo impuestos)<br/><input type="text" name="coste" value="0.00"></input></td>
+				<td>Tipo de cambio a MXN<br/><input type="text" name="coste" value="0.00"></input></td>
+			</tr>
+			<tr>
+				<th align="left">STATUS</th>
+			</tr>
+			<tr>
+				<td>Status del Evento<br/><input type="checkbox" id="cbox1" value="status"></input>Activo</td>
+				<td>Activar idioma Ingles<br/><input type="checkbox" id="cbox2" value="ingles"></input>Activo</td>
+				<td><input type="checkbox" id="cbox3" value="normal"></input>Registro Normal<br/><input type="checkbox" id="cbox4" value="clave"></input>Registro con claves</td>
+			</tr>
+			<tr>
+				<td colspan="2">Link de Retorno (ej. http://wwww.dominio.com)<br/><input type="text" name="link"></input></td>
+			</tr>
+			<tr>
+				<td colspan="3" align="center"><button type="submit" name="guardar">Guardar</button></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
