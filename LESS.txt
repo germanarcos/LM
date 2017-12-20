@@ -1,0 +1,6 @@
+Escribir archivo de texto.less que se transformará a un archivo con código CSS que pueda interpretar el navegador y dar estilo a nuestra pagina web
+4 Formas de emplear LESS
+1: Instalar Node.js
+2: Añadir un plugin al navegador para que el navegador traduzca el codigo less a codigo CSS Ese plugin puede ser less.js
+3: (IDE Plugins)Modificar el entorno de desarrollo con uno o varios plugins (escribir codigo less y que sublime lo convierta a CSS)
+4: Utilizar una pagina web: http://less2css.orgs
