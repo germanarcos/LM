@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding ="UTF-8"?>
+<arboles>
+	<arbol>
+		<nombre_cientifico>Acer monspessulanum</nombre_cientifico>
+		<nombre>Arce de Montpellier, Arce menor</nombre>
+		<vegetacion>Caducifolio</vegetacion>
+		<altura>De 6 a 10 metros</altura>
+		<forma_estructura>Copa esferica. Tronco principal recto con bifurcaciones. Ramaje colgante</forma_estructura>
+		<color_primavera>Haz verde brillante, enves verde blanquecino.</color_primavera>
+		<resistencia_heladas>Heladas fuertes hasta -15ºC</resistencia_heladas>
+	</arbol>
+	<arbol>
+		<nombre_cientifico>Olea europea</nombre_cientifico>
+		<nombre>Olivo</nombre>
+		<vegetacion>Perenne</vegetacion>
+		<altura>De 8 a 15 metros</altura>
+		<forma_estructura>Copa irregular. Tronco principal irregular con bifurcaciones. Ramaje tortuoso</forma_estructura>
+		<color_primavera>Haz verde oscuro, enves verde plateado.</color_primavera>
+		<resistencia_heladas>Heladas medias (hasta -10ºC)</resistencia_heladas>
+	</arbol>
+		<arbol>
+		<nombre_cientifico>Platanus orientalis</nombre_cientifico>
+		<nombre>Platano</nombre>
+		<vegetacion>Caducifolio</vegetacion>
+		<altura>De 20 a 25 metros</altura>
+		<forma_estructura>Copa ovoidal. Tronco principal recto. Ramaje expandido</forma_estructura>
+		<color_primavera>Haz verde medio, enves verde claro.</color_primavera>
+		<clor_otoño>Ocre</clor_otoño>
+		<resistencia_heladas>Heladas fuertes(hasta -20ºC)</resistencia_heladas>
+	</arbol>
+	<arbol>
+		<nombre_cientifico>Quercus ilex</nombre_cientifico>
+		<nombre>Encina</nombre>
+		<vegetacion>Perenne</vegetacion>
+		<altura>En torno a 25 metros</altura>
+		<forma_estructura>Copa esférica o elíptica irregular. Tronco principal recto. Ramaje tortuoso.</forma_estructura>
+		<color_primavera>Plateado en hojas jóvenes. En hojas antiguas, haz verde oscuro, envés plateado.</color_primavera>
+		<resistencia_heladas>Heladas fuertes(hasta -15ºC)</resistencia_heladas>
+	</arbol>
+
+</arboles>
