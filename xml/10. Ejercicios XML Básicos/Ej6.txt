@@ -1,0 +1,8 @@
+El primero tiene varios errores.
+La etiqueta <destacar> el atributo importancia es erroneo, el valor no va entre comillas.
+El cierre de la etiqueta</p] tiene un corchete en vez de >.
+En el segundo <p> hay un < que se intenta introducir como texto, pero no se encuentra en una sección CDATA.
+
+En el segundo, en la etiqueta autor, el atributo nombre esta duplicado, ademas, el valor tiene que estar en mayusculas.
+En descripcion hay un < como texto, en caso de querer introducirlo deberia encontrarse en una seccion CDATA o introducirlo mediante una referencia a entidad.
+Al cerrar la etiqueta libro se cierra mal, utilizando ] en lugar de >, y al cerrar la etiqueta libros, se cierra mal al escribir Libros en vez de libros.
