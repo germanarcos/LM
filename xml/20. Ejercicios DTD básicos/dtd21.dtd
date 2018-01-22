@@ -1,0 +1,11 @@
+<!ELEMENT informe (cabecera, cuerpo)>
+<!ELEMENT cabecera (descripcion,fecha)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+
+<!ELEMENT cuerpo (region)+>
+<!ELEMENT region (trimestre)+>
+<!ELEMENT trimestre (ventas)>
+<!ELEMENT ventas (#PCDATA)>
+<!ATTLIST region lugar CDATA #IMPLIED>
+<!ATTLIST trimestre valor (1|2|3|4) #IMPLIED>

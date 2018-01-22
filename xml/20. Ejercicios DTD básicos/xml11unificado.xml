@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE nota SYSTEM "dtd11.dtd">
+<!DOCTYPE nota [<!ELEMENT nota (para, de, titulo, contenido)>
+<!ELEMENT para (#PCDATA)>
+<!ELEMENT de (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT contenido (#PCDATA)>
+]>
 <nota> 
 <para>Pedro</para> 	
 <de>Laura</de> 

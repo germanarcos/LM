@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE informe SYSTEM "dtd21.dtd">
+<informe>
+	<cabecera>
+		<descripcion>informe de ventas para las regiones Norte,Centro y Sur</descripcion>
+		<fecha>30/12/2016</fecha>
+	</cabecera>
+	<cuerpo>
+	<region lugar = "Norte">
+		<trimestre valor="1">
+			<ventas>24000</ventas>
+		</trimestre>
+		<trimestre valor="2">
+			<ventas>38600</ventas>
+		</trimestre>
+	</region>
+
+	<region lugar = "Centro">
+		<trimestre valor="2">
+			<ventas>16080</ventas>
+		</trimestre>
+		<trimestre valor="3">
+			<ventas>24000</ventas>
+		</trimestre>
+		<trimestre valor="4">
+			<ventas>29000</ventas>
+		</trimestre>
+	</region>
+
+	<region lugar = "Sur">
+		<trimestre valor="1">
+			<ventas>27000</ventas>
+		</trimestre>
+		<trimestre valor="2">
+			<ventas>31400</ventas>
+		</trimestre>
+		<trimestre valor="3">
+			<ventas>40100</ventas>
+		</trimestre>
+		<trimestre valor="4">
+			<ventas>30000</ventas>
+		</trimestre>
+	</region>
+</cuerpo>
+</informe>
