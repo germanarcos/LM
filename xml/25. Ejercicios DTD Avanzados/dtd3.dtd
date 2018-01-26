@@ -1,0 +1,8 @@
+<!ELEMENT concesionario (modelo*)>
+<!ELEMENT modelo (modelos_relacionados?, descripcion, motor_relacionado_con_modelo)>
+<!ATTLIST modelo numero ID #IMPLIED>
+<!ELEMENT modelos_relacionados EMPTY>
+<!ATTLIST modelos_relacionados modelo IDREFS #IMPLIED>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT motor_relacionado_con_modelo EMPTY>
+<!ATTLIST motor_relacionado_con_modelo modelo IDREF #IMPLIED>
