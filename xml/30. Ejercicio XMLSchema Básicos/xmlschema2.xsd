@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.w3schools.com"
+xmlns="http://www.w3schools.com"
+elementFormDefault="qualified">
+<xs:element name="vehiculo">
+<xs:complexType>
+	<xs:sequence>
+		<xs:element name="nombre" type="xs:string"/>
+		<xs:element name="modelo" type="xs:string"/>
+		<xs:element name="fabricacion">
+			<xs:complexType>
+				<xs:sequence>
+					<xs:element name="inicio" type="fecha"/>
+					<xs:element name="fin" type="fecha"/>
+					<xs:complexType name="fecha">
+						<xs:sequence>
+							<xs:element name="dia" tpye="xs:string"/>
+							<xs:element name="mes" tpye="xs:string"/>
+							<xs:element name="anyo" tpye="xs:string"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:sequence>
+			</xs:complexType>
+		</xs:element>
+		<xs:element name="modificaciones">
+			<xs:complexType>
+				<xs:sequence>
+					<xs:element name="modificacion" type="xs:string"/>
+				</xs:sequence>
+			</xs:complexType>
+		</xs:element>
+	</xs:sequence>
+</xs:complexType>
+</xs:element>>
+</xs:schema>
