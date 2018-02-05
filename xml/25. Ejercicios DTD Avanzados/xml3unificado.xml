@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE concesionario [<!ELEMENT concesionario (modelo*)>
+<!ELEMENT modelo (modelos_relacionados?, descripcion, motor_relacionado_con_modelo)>
+<!ATTLIST modelo numero ID #IMPLIED>
+<!ELEMENT modelos_relacionados EMPTY>
+<!ATTLIST modelos_relacionados modelo IDREFS #IMPLIED>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT motor_relacionado_con_modelo EMPTY>
+<!ATTLIST motor_relacionado_con_modelo modelo IDREF #IMPLIED>]>
+<concesionario>
+	<modelo numero="M556">
+		<modelos_relacionados/>
+		<descripcion>
+			No disponible
+		</descripcion>
+		<motor_relacionado_con_modelo/>
+	</modelo>
+	<modelo numero="M555">
+		<modelos_relacionados modelo="M444 M556"/>
+		<descripcion>Este modelo tiene un motor 1.998cc 16v. de cuatro cilindros, que desarrolla una potencia de 128 CV. Dispone de cambio manual ... el consumo medio de este monovolumen es 11 a los 100 km. El precio base es de 2.225.000.
+		</descripcion>
+		<motor_relacionado_con_modelo modelo="M556"/>
+	</modelo>
+	<modelo numero="M557">
+		<modelos_relacionados/>
+		<descripcion>
+			No disponible
+		</descripcion>
+		<motor_relacionado_con_modelo/>
+	</modelo>
+	<modelo numero="M154">
+		<modelos_relacionados/>
+		<descripcion>
+			No disponible
+		</descripcion>
+		<motor_relacionado_con_modelo/>
+	</modelo>
+	<modelo numero="M444">
+		<modelos_relacionados modelo="M555 M154"/>
+		<descripcion>
+			Este modelo tiene un motor 2.000cc 16v. de cuatro cilindros con 128 CV. Dispone de cambio manual ... el consumo medio de este monovolumen es 11 a los 100 km. El precio base es de 2.500.000.
+		</descripcion>
+		<motor_relacionado_con_modelo modelo="M556"/>
+	</modelo>
+</concesionario>

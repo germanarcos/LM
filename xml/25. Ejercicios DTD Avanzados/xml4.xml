@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE personas SYSTEM "dtd4.dtd">
+<personas>
+	<persona>
+		<nombre>
+			Juan Pardo
+		</nombre>
+		<nacimiento dia="10" mes="Abril" anyo="1982"/>
+		<direccion>
+			<calle>
+				Caoba,1
+			</calle>
+			<poblacion>
+				Madrid
+			</poblacion>
+			<provincia>
+				Madrid
+			</provincia>
+			<cpostal>
+				28005
+			</cpostal>
+		</direccion>
+		<varon/>
+	</persona>
+
+	<persona>
+		<nombre>
+			Homer Simpson
+		</nombre>
+		<nacimiento dia="7" mes="Julio" anyo="1995"/>
+		<direccion>
+			<calle>
+				Falsa 123
+			</calle>
+			<poblacion>
+				Alicante
+			</poblacion>
+			<provincia>
+				Alicante
+			</provincia>
+			<cpostal>
+				00301
+			</cpostal>
+		</direccion>
+		<mujer/>
+	</persona>
+</personas>

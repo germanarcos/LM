@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE videoclub SYSTEM "dtd5.dtd">
+<videoclub>
+	<factura>
+		<datos_cliente>
+			<nombre>
+				Paco
+			</nombre>
+			<primer_apellido>
+				Paquito
+			</primer_apellido>
+			<segundo_apellido>
+				Paquete
+			</segundo_apellido>
+			<DNI>
+				12873412W
+			</DNI>
+			<telefono>
+				612345789
+			</telefono>
+			<identificador_cliente>
+				1234WR
+			</identificador_cliente>
+		</datos_cliente>
+		<datos_factura>
+			<alquiler devolucion="29/01/2018">
+				<pelicula>
+					<titulo>
+						SHARKNADO
+					</titulo>
+					<genero>
+						comedia
+					</genero>
+					<duracion valor="178"/>
+					<reparto>
+						<actor>
+							<nombre>
+								Tiburon blanco
+							</nombre>
+							<primer_apellido>
+								Ochenta kilos
+							</primer_apellido>
+						</actor>
+						<actor>
+							<nombre>
+								La yuyee
+							</nombre>
+							<primer_apellido>
+								Sacarla
+							</primer_apellido>
+						</actor>
+						<actor>
+							<nombre>
+								Frank
+							</nombre>
+							<primer_apellido>
+								Cuesta
+							</primer_apellido>
+						</actor>
+					</reparto>
+				</pelicula>
+			</alquiler>
+			<compra>
+				<DVD>
+					<titulo>
+						No se que poner ya
+					</titulo>
+					<fecha_salida fecha=""/>
+					<extras/>
+				</DVD>
+				<cinta>
+					<titulo>
+						Relleno
+					</titulo>
+					<formato tipo="VHS"/>
+					<rebobinada valor="Si"/>
+				</cinta>
+			</compra>
+			<resguardo>
+				<forma_pago forma="Efectivo"/>
+				<importe_total>
+					0.000000000005€
+				</importe_total>
+			</resguardo>
+		</datos_factura>
+	</factura>
+</videoclub>

@@ -1,0 +1,15 @@
+<!ELEMENT personas (persona*)>
+<!ELEMENT persona (nombre, nacimiento, direccion, ( varon| mujer) )>
+<!ELEMENT direccion (calle, poblacion, provincia, cpostal)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT poblacion (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT cpostal (#PCDATA)>
+<!ELEMENT nacimiento EMPTY>
+<!ATTLIST nacimiento
+dia CDATA #REQUIRED
+mes (Enero | Febrero | Marzo | Abril | Mayo | Junio | Julio | Agosto | Septiembre | Octubre | Noviembre |Diciembre ) #REQUIRED
+ anyo CDATA #REQUIRED>
+<!ELEMENT varon EMPTY>
+<!ELEMENT mujer EMPTY>

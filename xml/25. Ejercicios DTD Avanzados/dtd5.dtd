@@ -1,0 +1,37 @@
+<!ELEMENT videoclub (factura*)>
+<!ELEMENT factura (datos_cliente, datos_factura)>
+<!ELEMENT datos_cliente (nombre, primer_apellido, segundo_apellido, DNI, telefono, identificador_cliente)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT primer_apellido (#PCDATA)>
+<!ELEMENT segundo_apellido (#PCDATA)>
+<!ELEMENT DNI (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT identificador_cliente (#PCDATA)>
+
+<!ELEMENT datos_factura (alquiler, compra, resguardo)>
+<!ELEMENT alquiler (pelicula)*>
+<!ATTLIST alquiler devolucion CDATA #REQUIRED>
+<!ELEMENT pelicula (titulo, genero, duracion, reparto)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT duracion EMPTY>
+<!ATTLIST duracion valor CDATA #REQUIRED>
+
+<!ELEMENT reparto (actor*)>
+<!ELEMENT actor (nombre, primer_apellido)>
+
+<!ELEMENT compra (DVD | cinta)*>
+<!ELEMENT DVD (titulo, fecha_salida, extras?)>
+<!ELEMENT fecha_salida EMPTY>
+<!ELEMENT extras EMPTY>
+<!ATTLIST fecha_salida fecha CDATA #IMPLIED>
+
+<!ELEMENT cinta (titulo, formato, rebobinada)>
+<!ELEMENT formato EMPTY>
+<!ATTLIST formato tipo CDATA #REQUIRED>
+<!ELEMENT rebobinada EMPTY>
+<!ATTLIST rebobinada valor (Si|No) #REQUIRED>
+<!ELEMENT resguardo (forma_pago, importe_total)>
+<!ELEMENT forma_pago EMPTY>
+<!ATTLIST forma_pago forma (Tarjeta | Efectivo) #REQUIRED>
+<!ELEMENT importe_total (#PCDATA)>
