@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos
+xmlns="http://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xw="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNameSpaceSchemaLocation="http://www.w3schools.com docencia.xsd"
+xw:NameSpaceSchemaLocation="http://www.w3schools.com personas.xsd">
+</alumnos>

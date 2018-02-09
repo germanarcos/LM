@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding="ISO-8859-1"?>
+<xs:schema xmlns:xs = "http://www.prueba.es/docencia">
+	<xs:element name="grupo" type ="xs:string"/>
+	<xs:complexType name="asignatura">
+		<xs:sequence>
+			<xs:element name="nombre" type="xs:string"/>
+			<xs:element name="horas" type="xs:string"/>
+			<xs:element name="nombre_profesor" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
