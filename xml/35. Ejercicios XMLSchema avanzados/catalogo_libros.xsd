@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ targetNamespace="http://www.iessantiagohernandez.es/1DUA/catalogo_libros"
+ elementFormDefault="qualified"
+ attributeFormDefault="qualified"
+ xmlns:cat="http://www.iessantiagohernandez.es/1DUA/catalogo_libros">
+<xsd:simpleType name="tipoMes">
+<xsd:restriction base="xsd:positiveInteger">
+<xsd:minInclusive value="1"/>
+<xsd:maxInclusive value="12"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="tipoAnyo">
+<xsd:restriction base="xsd:positiveInteger">
+<xsd:minInclusive value="1900"/>
+<xsd:maxInclusive value="2011"/> 
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="tipoNombre">
+<xsd:restriction base="xsd:string">
+<xsd:minLength value="0"/>
+<xsd:maxLength value="100"/> 
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="tipoISBN">
+<xsd:restriction base="xsd:string">
+<xsd:minLength value="13"/>
+<xsd:maxLength value="17"/> 
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:element name="titulo" type="catal:tipoNombre"/>
+<xsd:element name="autor" type="catal:tipoNombre"/>
+<xsd:element name="mes" type="catal:tipoMes"/>
+<xsd:element name="anyo" type="catal:tipoAnyo"/>
+<xsd:element name="ISBN" type="catal:tipoISBN"/>
+<xsd:element name="editor" type="catal:tipoNombre"/>
+<xsd:element name="fecha">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element ref="catal:mes" minOccurs="0" maxOccurs="1"/>
+<xsd:element ref="catal:anyo"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="libro">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element ref="catal:titulo" minOccurs="0" maxOccurs="unbounded"/>
+<xsd:element ref="catal:autor" maxOccurs="unbounded"/>
+<xsd:element ref="catal:fecha"/>
+<xsd:element ref="catal:ISBN"/>
+<xsd:element ref="catal:editor"/>
+</xsd:sequence>
+<xsd:attribute name="categoria" use="required">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="autobiografia"/>
+<xsd:enumeration value="noficcion"/>
+<xsd:enumeration value="ficcion"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:attribute>
+<xsd:attribute name="enstock" type="xsd:boolean" default="false"/>
+<xsd:attribute name="revisor" type="xsd:string" default=""/>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="catalogoLibros">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element ref="catal:libro" minOccurs="0" maxOccurs="unbounded"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element> 
+</xsd:schema>

@@ -1,8 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<alumnos
-xmlns="http://www.w3schools.com"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xmlns:xw="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNameSpaceSchemaLocation="http://www.w3schools.com docencia.xsd"
-xw:NameSpaceSchemaLocation="http://www.w3schools.com personas.xsd">
-</alumnos>
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<alumno xmlns:xs="http://www.w3c.org/2001/XMLSchema-instance"
+ xs:schemaLocation="http://www.prueba.es/persona XMLSchemaAvanzados01_persona.xsd
+ http://www.prueba.es/docencia XMLSchemaAvanzados01_docencia.xsd"
+ xmlns:pers="http://www.prueba.es/persona"
+ xmlns:doc="http://www.prueba.es/docencia"
+>
+ 
+  <pers:persona pers:nacimiento="1999-10-20">
+    <pers:datos>
+      <pers:nombre>Pepe</pers:nombre>
+      <pers:apellidos>Garcia</pers:apellidos>
+      <pers:dni>25390952X</pers:dni>
+    </pers:datos>
+    <pers:comentario>repetidor</pers:comentario>
+  </pers:persona>
+  <datos_academicos>
+    <doc:curso>1ASIR</doc:curso>
+    <doc:asignatura>
+      <doc:nombre>Lenguajes de Marcas</doc:nombre>
+      <doc:horas>4</doc:horas>
+      <doc:profesor>Juan Moreno</doc:profesor>
+    </doc:asignatura>
+    <doc:asignatura>
+      <doc:nombre>Fundamentos del Hardware</doc:nombre>
+      <doc:horas>3</doc:horas>
+      <doc:profesor>Virginia López</doc:profesor>
+    </doc:asignatura>
+  </datos_academicos>
+</alumno>
