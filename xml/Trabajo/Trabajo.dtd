@@ -1,4 +1,0 @@
-<!ELEMENT HTML (head,body)>
-<!ATTLIST HTML lang (es|en|de) #REQUIRED>
-<!ELEMENT head (title, meta*)>
-<!ELEMENT body ()>
