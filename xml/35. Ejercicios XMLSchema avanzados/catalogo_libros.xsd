@@ -3,7 +3,11 @@
  targetNamespace="http://www.iessantiagohernandez.es/1DUA/catalogo_libros"
  elementFormDefault="qualified"
  attributeFormDefault="qualified"
+<<<<<<< HEAD
  xmlns:cat="http://www.iessantiagohernandez.es/1DUA/catalogo_libros">
+=======
+ xmlns:catal="http://www.iessantiagohernandez.es/1DUA/catalogo_libros">
+>>>>>>> refs/remotes/origin/master
 <xsd:simpleType name="tipoMes">
 <xsd:restriction base="xsd:positiveInteger">
 <xsd:minInclusive value="1"/>

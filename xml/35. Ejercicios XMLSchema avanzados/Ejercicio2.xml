@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
+<<<<<<< HEAD
 <catalogoLibros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xmlns:catal="http://www.iessantiagohernandez.es/1DUA/catalogo_libro"
  xsi:schemaLocation="catalogo_libros.xsd">
+=======
+<catalogoLibros xmlns:catal="http://www.w3.org/2001/XMLSchema-instance"
+ catal:SchemaLocation="catalogo_libros.xsd">
+>>>>>>> refs/remotes/origin/master
 
  <catal:libro catal:categoria="ficcion" catal:enstock="true">
  <catal:titulo>Los hombres que no amaban a las mujeres</catal:titulo>

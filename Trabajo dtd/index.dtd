@@ -1,0 +1,36 @@
+<!ELEMENT html (head, body)>
+<!ELEMENT head (meta+, title)>
+<!--meta+ simplemente para utilizar la restriccion de que haya un o mas elementos de ese tipo, sería más normal utilizar *--!>
+<!ELEMENT meta EMPTY>
+<!ATTLIST meta name CDATA #REQUIRED
+	content CDATA #REQUIRED>
+<!ELEMENT title (#PCDATA)>
+
+<!ELEMENT body (header, section, footer)>
+<!ELEMENT header ANY>
+<!ELEMENT span (#PCDATA)>
+<!ATTLIST span class CDATA #REQUIRED>
+<!ELEMENT section (h1?, article*)>
+<!ELEMENT h1 (#PCDATA)>
+
+<!ELEMENT article (h2?,h3?,h4?, ( p | table | ul?)*)>
+	<!ELEMENT h2 (#PCDATA)>
+	<!ELEMENT h3 (#PCDATA)>
+	<!ELEMENT h4 (#PCDATA)>
+	<!ELEMENT ul (li*)>
+	<!ELEMENT li (#PCDATA)>
+	<!ELEMENT p ANY>
+		<!ELEMENT br EMPTY>
+
+<!ELEMENT table (caption?, tr*)>
+	<!ELEMENT caption (#PCDATA)>
+	<!ELEMENT tr (td*)>
+		<!ELEMENT td ANY>
+		<!ELEMENT a ANY>
+			<!ATTLIST a href CDATA "">
+		<!ELEMENT img EMPTY>
+			<!ATTLIST img src CDATA #REQUIRED>
+			<!ATTLIST img alt CDATA #REQUIRED>
+			<!ATTLIST img height CDATA #IMPLIED>
+			<!ATTLIST img width CDATA #IMPLIED>
+<!ELEMENT footer ANY>
