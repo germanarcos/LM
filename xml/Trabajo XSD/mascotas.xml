@@ -1,937 +1,981 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<resultado SchemaLocation="mascotas.xsd" xmlns="http://www.w3.org/2001/XMLSchema-instance">
-	<totalCount>139</totalCount>
-	<start>0</start>
-	<rows>50</rows>
-	<result>
-		<animal-en-adopcion>
-			<id>4893</id>
-			<ficha>04594</ficha>
-			<raza>mestizo</raza>
-			<fechaIngreso>2014-10-31T23:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2013-06-26T22:00:00Z</fechaNac>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<observaciones>Muy nervioso y ladrador ideal para terreno
-Esterilizado</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/FB_IMG_1512335766624.jpg</foto>
-			<nombre>Jonny</nombre>
-			<especie>Canina</especie>
-			<color>tricolor</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>5487</id>
-			<ficha>05178</ficha>
-			<raza>mestizo</raza>
-			<fechaIngreso>2015-06-10T22:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2014-12-31T23:00:00Z</fechaNac>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/IMG-20171222-WA0031.jpg</foto>
-			<nombre>Puzle</nombre>
-			<especie>Canina</especie>
-			<color>marron</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>5223</id>
-			<ficha>04924</ficha>
-			<raza>mestizo</raza>
-			<fechaIngreso>2015-03-15T23:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2013-05-17T22:00:00Z</fechaNac>
-			<tamagno>Grande (26-44 kg)</tamagno>
-			<observaciones>animal joven, sabe sentarse y dar la pata. Buen caracter</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/04824 Marti.jpg</foto>
-			<nombre>Marti </nombre>
-			<especie>Canina</especie>
-			<color>negro pecho blanco</color>
-			<perdido>true</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>3418</id>
-			<ficha>03159</ficha>
-			<raza>PIT BULL</raza>
-			<fechaIngreso>2013-10-11T22:00:00Z</fechaIngreso>
-			<sexo>Hembra</sexo>
-			<fechaNac>2013-02-01T23:00:00Z</fechaNac>
-			<edad>Joven (8 meses)</edad>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<observaciones>Entro de cachorro y lleva toda su vida en nuestro centro.  
-Es muy bueno con las personas, pero no se lleva muy bien con sus congéneres, por lo que solo es apto para una casa que no tenga otros perros.
+<resultado xmlns="https://w3schools.com"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="mascotas.xsd">
+  <totalCount>139</totalCount>
+  <start>0</start>
+  <rows>50</rows>
+  <result>
+    <animal-en-adopcion>
+      <id>4893</id>
+      <ficha>04594</ficha>
+      <raza>mestizo</raza>
+      <fechaIngreso>2014-10-31T23:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2013-06-26T22:00:00Z</fechaNac>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <observaciones>
+        Muy nervioso y ladrador ideal para terreno
+        Esterilizado
+      </observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/FB_IMG_1512335766624.jpg</foto>
+      <nombre>Jonny</nombre>
+      <especie>Canina</especie>
+      <color>tricolor</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>5487</id>
+      <ficha>05178</ficha>
+      <raza>mestizo</raza>
+      <fechaIngreso>2015-06-10T22:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2014-12-31T23:00:00Z</fechaNac>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/IMG-20171222-WA0031.jpg</foto>
+      <nombre>Puzle</nombre>
+      <especie>Canina</especie>
+      <color>marron</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>5223</id>
+      <ficha>04924</ficha>
+      <raza>mestizo</raza>
+      <fechaIngreso>2015-03-15T23:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2013-05-17T22:00:00Z</fechaNac>
+      <tamagno>Grande (26-44 kg)</tamagno>
+      <observaciones>animal joven, sabe sentarse y dar la pata. Buen caracter</observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/04824 Marti.jpg</foto>
+      <nombre>Marti </nombre>
+      <especie>Canina</especie>
+      <color>negro pecho blanco</color>
+      <perdido>true</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>3418</id>
+      <ficha>03159</ficha>
+      <raza>PIT BULL</raza>
+      <fechaIngreso>2013-10-11T22:00:00Z</fechaIngreso>
+      <sexo>Hembra</sexo>
+      <fechaNac>2013-02-01T23:00:00Z</fechaNac>
+      <edad>Joven (8 meses)</edad>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <observaciones>
+        Entro de cachorro y lleva toda su vida en nuestro centro.
+        Es muy bueno con las personas, pero no se lleva muy bien con sus congéneres, por lo que solo es apto para una casa que no tenga otros perros.
 
-ES PRECIOSO, SE MERECE UN HOGAR!
+        ES PRECIOSO, SE MERECE UN HOGAR!
 
-Para su adopcion es necesario poseer la licencia para tenencia de perros potencialmente peligrosos.</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/pity.jpg</foto>
-			<nombre>PITY </nombre>
-			<especie>Canina</especie>
-			<color>Atigrado Marrón y Blanco</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>5339</id>
-			<ficha>04991</ficha>
-			<raza>xPastor Aleman</raza>
-			<fechaIngreso>2015-04-06T22:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2014-03-01T23:00:00Z</fechaNac>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/04991 bruce.jpg</foto>
-			<nombre>Bruce </nombre>
-			<especie>Canina</especie>
-			<color>NEGRO Y FUEGO</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>2057</id>
-			<ficha>01788</ficha>
-			<raza>Mestizo</raza>
-			<fechaIngreso>2012-10-13T22:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2011-10-13T22:00:00Z</fechaNac>
-			<edad>Adulto (3 años)</edad>
-			<tamagno>Grande (26-44 kg)</tamagno>
-			<observaciones>Me llamo Diablo, llegué al centro con un año...
-Tengo leishmania, aunque gracias al tratamiento que me dan no lo parece. 
-Soy un perro grande y alegre, me encantaria vivir en un jardín.
-
-
-
-</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/Diablo.jpg</foto>
-			<nombre>DIABLO </nombre>
-			<especie>Canina</especie>
-			<color>Negro, pecho y patas blanco</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>4478</id>
-			<ficha>04189</ficha>
-			<raza>xstaffodshire terrier</raza>
-			<fechaIngreso>2014-07-02T22:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2012-07-07T22:00:00Z</fechaNac>
-			<tamagno>Grande (26-44 kg)</tamagno>
-			<observaciones>Asidon tiene leishmania en tratamiento pero está controlada la enfermedad
- 
-Es muy cariñoso y tranquilo
-
-SE MERECE UN BUEN HOGAR, EL SABE BIEN LO QUE ES EL MALTRATO Y POSTERIORMENTE EL ABANDONO.
-En el Centro ha encontrado cariño y un hogar, pero se merece una casita, donde nunca nadie más lo maltrate.
-Asidon actualmente no se encuentra en el centro por lo que si quieres adoptarlo debes contactar con nosotros en el 976836554.</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/04189 Asidon.jpg</foto>
-			<nombre>ASIDON(G)</nombre>
-			<especie>Canina</especie>
-			<color>ATIGRADO</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>4821</id>
-			<ficha>04521</ficha>
-			<raza>xamerican sttafordshire</raza>
-			<fechaIngreso>2014-10-07T22:00:00Z</fechaIngreso>
-			<sexo>Hembra</sexo>
-			<fechaNac>2011-12-31T23:00:00Z</fechaNac>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<observaciones>Por su raza es necesaria licencia y seguro de perro peligroso para poder adoptarla.
-
-Asun llegó casi famélica al Centro.  
-Maltratada a tope.  
-Ha perdido los miedos y esta super bien.
-Es una buena perra.
-
-Esterilizada
-Asun actualmente no se encuentra en el centro por lo que si quieres adoptarla debes contactar con nosotros en el 976836554.</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/04521 Asun.jpg</foto>
-			<nombre>Asun (G)</nombre>
-			<especie>Canina</especie>
-			<color>blanca con ojos marrones</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>5843</id>
-			<ficha>05537</ficha>
-			<raza>mestizo american sttafordshire terrier</raza>
-			<fechaIngreso>2015-09-16T22:00:00Z</fechaIngreso>
-			<sexo>Hembra</sexo>
-			<fechaNac>2015-04-02T22:00:00Z</fechaNac>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<peso>12</peso>
-			<observaciones>necesaria licencia y seguro de perro potencialmente peligro para la adopción de Tasca
-
-Abandonada con menos de 6 meses, ya lleva con nosotros en el Centro 3 meses.  SE MERECE UN HOGAR
-				
-Es buena con la gente AUNQUE dominante con otros perros.
-
-Tasca actualmente no se encuentra en el centro por lo que si quieres adoptarla debes contactar con nosotros en el 976836554.
-
-</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/05537 Tasca.jpg</foto>
-			<nombre>Tasca (G)</nombre>
-			<especie>Canina</especie>
-			<color>atigrado</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>6127</id>
-			<ficha>05809</ficha>
-			<raza>american staffordshire terrier</raza>
-			<fechaIngreso>2016-01-16T23:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2013-07-16T22:00:00Z</fechaNac>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<peso>19</peso>
-			<observaciones>Axel actualmente no se encuentra en el centro por lo que si quieres adoptarlo debes contactar con nosotros en el 976836554.</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/5809 Axel.jpg</foto>
-			<nombre>Axel(G)</nombre>
-			<especie>Canina</especie>
-			<color>blanco y canela</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>6125</id>
-			<ficha>05482</ficha>
-			<raza>Cruce american stafordshire terrier</raza>
-			<fechaIngreso>2016-01-13T23:00:00Z</fechaIngreso>
-			<sexo>Hembra</sexo>
-			<fechaNac>2015-07-31T22:00:00Z</fechaNac>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<observaciones>Lola actualmente no se encuentra en el centro por lo que si quieres adoptarla debes contactar con nosotros en el 976836554.</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/05482.jpg</foto>
-			<nombre>Lola (G)</nombre>
-			<especie>Canina</especie>
-			<color>chocolate pecho blanco</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>5488</id>
-			<ficha>05179</ficha>
-			<raza>Mestizo</raza>
-			<fechaIngreso>2015-06-10T22:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2014-12-31T23:00:00Z</fechaNac>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/IMG-20171222-WA0044.jpg</foto>
-			<nombre>Bubble</nombre>
-			<especie>Canina</especie>
-			<color>crema</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>5499</id>
-			<ficha>05187</ficha>
-			<raza>Mestizo</raza>
-			<fechaIngreso>2015-06-11T22:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2015-03-31T22:00:00Z</fechaNac>
-			<tamagno>Grande (26-44 kg)</tamagno>
-			<observaciones>Adrián llegó al centro siendo un cachorro de dos meses. Tristemente no fue adoptado entonces y ha ido creciendo con nosotros y haciéndose invisible para el mundo. Ya tiene año y medio, está esterilizado y con sus vacunas al día. Nunca nadie lo ha llevado en acogida ni se interesado por él.
-¡¡Démosle una oportunidad!!
-Adopta a Adri, o llévalo en acogida para poder difundirlo mejor sabiendo más cosas de él
-</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/IMG-20171222-WA0046.jpg</foto>
-			<nombre>Adrian </nombre>
-			<especie>Canina</especie>
-			<color>tricolor</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>5972</id>
-			<ficha>05662</ficha>
-			<raza>xAmerican Staffordshire Terrier</raza>
-			<fechaIngreso>2015-11-07T23:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2014-11-07T23:00:00Z</fechaNac>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<observaciones>necesaria licencia y seguro de perro potencialmente peligroso para adoptar a Golf.
-Golf actualmente no se encuentra en el centro por lo que si quieres adoptarlo debes contactar con nosotros en el 976836554.</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/05662 Golf.jpg</foto>
-			<nombre>Golf (G)</nombre>
-			<especie>Canina</especie>
-			<color>marron y blanco</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>4454</id>
-			<ficha>04163</ficha>
-			<raza>Cruce de PITBULL TERRIER</raza>
-			<fechaIngreso>2014-06-27T22:00:00Z</fechaIngreso>
-			<sexo>Hembra</sexo>
-			<fechaNac>2012-03-31T22:00:00Z</fechaNac>
-			<edad>Adulto (2 años)</edad>
-			<tamagno>Grande (26-44 kg)</tamagno>
-			<observaciones>Necesita licencia para perros P.P.
-
-Lleva en el centro mas de tres años.
-
-ELLA YA CONOCE LA CRUELDAD DEL abandono, 
-Es muy juguetona y cariñosa, convive sin problemas con otro perro.
-
-SE MERECE UN HOGAR.</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/elsa.jpg</foto>
-			<nombre>ELSA</nombre>
-			<especie>Canina</especie>
-			<color>ATIGRADA Y BLANCA</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>5295</id>
-			<ficha>04982</ficha>
-			<raza>boxerxAmerican Staffordshire Terrier</raza>
-			<fechaIngreso>2015-04-04T22:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2013-04-04T22:00:00Z</fechaNac>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<observaciones>Fue recogido vagando por el campo.
-
-Lleva dos años en el centro
-
-Es  Jugueton y sociable con gente, pero no se lleva muy bien con otros machos
-
-Necesita un buen hogar, ya se lo merece.
-
-Who actualmente no se encuentra en el centro por lo que si quieres adoptarlo debes contactar con nosotros en el 976836554.</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/04982 Who.jpg</foto>
-			<nombre>Who (G)</nombre>
-			<especie>Canina</especie>
-			<color>negro y blanco</color>
-			<perdido>true</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>1567</id>
-			<ficha>01306</ficha>
-			<raza>Cruce Rottweiler</raza>
-			<fechaIngreso>2012-07-02T22:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2006-07-02T22:00:00Z</fechaNac>
-			<edad>Mayor (9 años)</edad>
-			<tamagno>Grande (26-44 kg)</tamagno>
-			<observaciones>Rotty, Lleva en el Centro con nosotros 5 años.  
-		
-Es bueno, nooo, LO SIGUIENTE.
-
-NO SABEMOS PORQUE SE HA VUELTO INVISIBLE.
-
-YA SE MERECE UNA CASITA
-
-Para su adopcion es necesario poseer la licencia para tenencia de perros potencialmente peligrosos.
-Está esterilizado y con vacunas al día. Actualmente no se encuentra en el centro por lo que si quieres adoptarlo ponte en contacto con nosotros en 976836554</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/01306.jpg</foto>
-			<nombre>ROTTY (G)</nombre>
-			<especie>Canina</especie>
-			<color>Negro y Fuego</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>5384</id>
-			<ficha>05075</ficha>
-			<raza>mestizo</raza>
-			<fechaIngreso>2015-05-11T22:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2014-07-11T22:00:00Z</fechaNac>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<observaciones>esterilizado</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/05075 Fly.jpg</foto>
-			<nombre>Fly</nombre>
-			<especie>Canina</especie>
-			<color>negro y fuego</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>5305</id>
-			<ficha>05010</ficha>
-			<raza>mestizo</raza>
-			<fechaIngreso>2015-04-15T22:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2014-04-14T22:00:00Z</fechaNac>
-			<tamagno>Grande (26-44 kg)</tamagno>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/IMG_20171221_195800.png</foto>
-			<nombre>Vito</nombre>
-			<especie>Canina</especie>
-			<color>blanco y atigrado</color>
-			<perdido>true</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>5893</id>
-			<ficha>05584</ficha>
-			<raza>mestizo</raza>
-			<fechaIngreso>2015-10-02T22:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2013-10-02T22:00:00Z</fechaNac>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/05584 Martinez.jpg</foto>
-			<nombre>Martinez</nombre>
-			<especie>Canina</especie>
-			<color>NEGRO Y FUEGO</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>5965</id>
-			<ficha>05654</ficha>
-			<raza>Mestizo</raza>
-			<fechaIngreso>2015-11-02T23:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2015-03-03T23:00:00Z</fechaNac>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/gandalf1.jpg</foto>
-			<nombre>Gandalf</nombre>
-			<especie>Canina</especie>
-			<color>Marron</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>5582</id>
-			<ficha>05273</ficha>
-			<raza>mestiza</raza>
-			<fechaIngreso>2015-07-07T22:00:00Z</fechaIngreso>
-			<sexo>Hembra</sexo>
-			<fechaNac>2014-11-30T23:00:00Z</fechaNac>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/05273 Mia.jpg</foto>
-			<nombre>Mia</nombre>
-			<especie>Canina</especie>
-			<color>marron y blanco</color>
-			<perdido>true</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>5717</id>
-			<ficha>05407</ficha>
-			<raza>CRUCE PASTOR ALEMAN</raza>
-			<fechaIngreso>2015-08-10T22:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2014-10-10T22:00:00Z</fechaNac>
-			<edad>Joven (10 meses)</edad>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<observaciones>esterilizado
-Leishmania + en tratamiento de mantenimiento con alopurinol</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/05407 Houdini.jpg</foto>
-			<nombre>HOUDINI</nombre>
-			<especie>Canina</especie>
-			<color>NEGRO Y FUEGO</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>4931</id>
-			<ficha>04631</ficha>
-			<raza>Cruce staffordshire bull terrier</raza>
-			<fechaIngreso>2014-11-11T23:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2013-06-16T22:00:00Z</fechaNac>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<observaciones>Es muy bueno, se lleva muy bien con las personas, pero necesita un hogar que no tenga otros perros, ya que no se lleva muy bien con sus congéneres, 
-
-Está esterilizado.
+        Para su adopcion es necesario poseer la licencia para tenencia de perros potencialmente peligrosos.
+      </observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/pity.jpg</foto>
+      <nombre>PITY </nombre>
+      <especie>Canina</especie>
+      <color>Atigrado Marrón y Blanco</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>5339</id>
+      <ficha>04991</ficha>
+      <raza>xPastor Aleman</raza>
+      <fechaIngreso>2015-04-06T22:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2014-03-01T23:00:00Z</fechaNac>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/04991 bruce.jpg</foto>
+      <nombre>Bruce </nombre>
+      <especie>Canina</especie>
+      <color>NEGRO Y FUEGO</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>2057</id>
+      <ficha>01788</ficha>
+      <raza>Mestizo</raza>
+      <fechaIngreso>2012-10-13T22:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2011-10-13T22:00:00Z</fechaNac>
+      <edad>Adulto (3 años)</edad>
+      <tamagno>Grande (26-44 kg)</tamagno>
+      <observaciones>
+        Me llamo Diablo, llegué al centro con un año...
+        Tengo leishmania, aunque gracias al tratamiento que me dan no lo parece.
+        Soy un perro grande y alegre, me encantaria vivir en un jardín.
 
 
-necesaria licencia y seguro de perros potencialmente peligrososo
-ESTÁ ESTERILIZADO
-Brown actualmente no se encuentra en el centro por lo que si quieres adoptarlo debes contactar con nosotros en el 976836554.</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/04631.jpg</foto>
-			<nombre>BROWN (G)</nombre>
-			<especie>Canina</especie>
-			<color>MARRON</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>5923</id>
-			<ficha>05615</ficha>
-			<raza>cruce de american staffordshire terrier</raza>
-			<fechaIngreso>2015-10-13T22:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2013-12-31T23:00:00Z</fechaNac>
-			<tamagno>Grande (26-44 kg)</tamagno>
-			<observaciones>Necesaria licencia y seguro para tenencia de animales potencialmente peligrosos para adoptar a este animal
 
-Es muy bueno con personas, es un abandonado , ES UN SUPERVIVIENTE, MERECE UN BUEN HOGAR.
+      </observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/Diablo.jpg</foto>
+      <nombre>DIABLO </nombre>
+      <especie>Canina</especie>
+      <color>Negro, pecho y patas blanco</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>4478</id>
+      <ficha>04189</ficha>
+      <raza>xstaffodshire terrier</raza>
+      <fechaIngreso>2014-07-02T22:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2012-07-07T22:00:00Z</fechaNac>
+      <tamagno>Grande (26-44 kg)</tamagno>
+      <observaciones>
+        Asidon tiene leishmania en tratamiento pero está controlada la enfermedad
 
-Titan actualmente no se encuentra en el centro por lo que si quieres adoptarlo debes contactar con nosotros en el 976836554.</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/05615 Titan.jpg</foto>
-			<nombre>Titan (G)</nombre>
-			<especie>Canina</especie>
-			<color>marron y blanco</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>5249</id>
-			<ficha>04945</ficha>
-			<raza>xAmerican Staffordshire Terrier</raza>
-			<fechaIngreso>2015-03-25T23:00:00Z</fechaIngreso>
-			<sexo>Hembra</sexo>
-			<fechaNac>2014-05-25T22:00:00Z</fechaNac>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<observaciones>Necesita licencia de perro potencialmente peligroso y seguro de responsabilidad civil
+        Es muy cariñoso y tranquilo
 
-Entró al centro con diez meses. Durante largo tiempo convivió sin proplemas con otra ppp del Centro, al principio todo fue bien, pero hace poco susgieron problemas entre ellas.
-Actualmente no se encuentra en el centro por lo que si quieres adoptarla debes contactar con nosotros en 976836554.
-Maribel está vacunada y esterilizada, ahora necesita un buen hogar
-Recogida abandonada, vagando por el campo.  La pobre tan joven conoce perfectamente el maltrato animal.
-</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/04945 Maribel.jpg</foto>
-			<nombre>Maribel (G)</nombre>
-			<especie>Canina</especie>
-			<color>Blanco y negro</color>
-			<perdido>true</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>4080</id>
-			<ficha>03822</ficha>
-			<raza>Rottweiler</raza>
-			<fechaIngreso>2014-03-16T23:00:00Z</fechaIngreso>
-			<sexo>Hembra</sexo>
-			<fechaNac>2013-10-15T22:00:00Z</fechaNac>
-			<edad>Adulto (1 año)</edad>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<observaciones>SE MERECE UN HOGAR!  lleva casi toda su vida en el centro.
+        SE MERECE UN BUEN HOGAR, EL SABE BIEN LO QUE ES EL MALTRATO Y POSTERIORMENTE EL ABANDONO.
+        En el Centro ha encontrado cariño y un hogar, pero se merece una casita, donde nunca nadie más lo maltrate.
+        Asidon actualmente no se encuentra en el centro por lo que si quieres adoptarlo debes contactar con nosotros en el 976836554.
+      </observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/04189 Asidon.jpg</foto>
+      <nombre>ASIDON(G)</nombre>
+      <especie>Canina</especie>
+      <color>ATIGRADO</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>4821</id>
+      <ficha>04521</ficha>
+      <raza>xamerican sttafordshire</raza>
+      <fechaIngreso>2014-10-07T22:00:00Z</fechaIngreso>
+      <sexo>Hembra</sexo>
+      <fechaNac>2011-12-31T23:00:00Z</fechaNac>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <observaciones>
+        Por su raza es necesaria licencia y seguro de perro peligroso para poder adoptarla.
 
-Para su adopcion es necesario poseer la licencia para tenencia de perros potencialmente peligrosos.</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/03822 Lujan..JPG</foto>
-			<nombre>LUJAN </nombre>
-			<especie>Canina</especie>
-			<color>N/F</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>4552</id>
-			<ficha>04262</ficha>
-			<raza>cruce de LABRADOR</raza>
-			<fechaIngreso>2014-07-21T22:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2013-08-21T22:00:00Z</fechaNac>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<observaciones>Es muy bueno.
+        Asun llegó casi famélica al Centro.
+        Maltratada a tope.
+        Ha perdido los miedos y esta super bien.
+        Es una buena perra.
 
-Conoce muy bien el maltrato y abandonó.
-En el centro ha conocido el cariño.
-Pero ya está preparado para ir a un hogar.
-Se lo merece!!</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/04262 marques.jpg</foto>
-			<nombre>MARQUES </nombre>
-			<especie>Canina</especie>
-			<color>NEGRO pecho blanco</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>4177</id>
-			<ficha>03898</ficha>
-			<raza>Mestizo</raza>
-			<fechaIngreso>2014-04-10T22:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2013-03-10T23:00:00Z</fechaNac>
-			<edad>Adulto (1 año)</edad>
-			<tamagno>Grande (26-44 kg)</tamagno>
-			<observaciones>Lleva casi toda su vida con nosotros.
+        Esterilizada
+        Asun actualmente no se encuentra en el centro por lo que si quieres adoptarla debes contactar con nosotros en el 976836554.
+      </observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/04521 Asun.jpg</foto>
+      <nombre>Asun (G)</nombre>
+      <especie>Canina</especie>
+      <color>blanca con ojos marrones</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>5843</id>
+      <ficha>05537</ficha>
+      <raza>mestizo american sttafordshire terrier</raza>
+      <fechaIngreso>2015-09-16T22:00:00Z</fechaIngreso>
+      <sexo>Hembra</sexo>
+      <fechaNac>2015-04-02T22:00:00Z</fechaNac>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <peso>12</peso>
+      <observaciones>
+        necesaria licencia y seguro de perro potencialmente peligro para la adopción de Tasca
 
-Es muy bueno.
-ESTA esterilizado.
+        Abandonada con menos de 6 meses, ya lleva con nosotros en el Centro 3 meses.  SE MERECE UN HOGAR
 
-SE MERECE UN HOGAR YA!!</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/03898 JACK.JPG</foto>
-			<nombre>JACK</nombre>
-			<especie>Canina</especie>
-			<color>Crema</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>5435</id>
-			<ficha>05146</ficha>
-			<raza>Rotweiler</raza>
-			<fechaIngreso>2015-05-27T22:00:00Z</fechaIngreso>
-			<sexo>Hembra</sexo>
-			<fechaNac>2012-12-31T23:00:00Z</fechaNac>
-			<tamagno>Grande (26-44 kg)</tamagno>
-			<observaciones>Se necesita licencia y seguro de perro potencialmente peligroso debido a su raza.
+        Es buena con la gente AUNQUE dominante con otros perros.
 
-Lleva con nosotros casi un año.
+        Tasca actualmente no se encuentra en el centro por lo que si quieres adoptarla debes contactar con nosotros en el 976836554.
 
-ABANDONADA  por tener leishmaniosis
-	Es una perra super buena  y juguetona	
+      </observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/05537 Tasca.jpg</foto>
+      <nombre>Tasca (G)</nombre>
+      <especie>Canina</especie>
+      <color>atigrado</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>6127</id>
+      <ficha>05809</ficha>
+      <raza>american staffordshire terrier</raza>
+      <fechaIngreso>2016-01-16T23:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2013-07-16T22:00:00Z</fechaNac>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <peso>19</peso>
+      <observaciones>Axel actualmente no se encuentra en el centro por lo que si quieres adoptarlo debes contactar con nosotros en el 976836554.</observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/5809 Axel.jpg</foto>
+      <nombre>Axel(G)</nombre>
+      <especie>Canina</especie>
+      <color>blanco y canela</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>6125</id>
+      <ficha>05482</ficha>
+      <raza>Cruce american stafordshire terrier</raza>
+      <fechaIngreso>2016-01-13T23:00:00Z</fechaIngreso>
+      <sexo>Hembra</sexo>
+      <fechaNac>2015-07-31T22:00:00Z</fechaNac>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <observaciones>Lola actualmente no se encuentra en el centro por lo que si quieres adoptarla debes contactar con nosotros en el 976836554.</observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/05482.jpg</foto>
+      <nombre>Lola (G)</nombre>
+      <especie>Canina</especie>
+      <color>chocolate pecho blanco</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>5488</id>
+      <ficha>05179</ficha>
+      <raza>Mestizo</raza>
+      <fechaIngreso>2015-06-10T22:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2014-12-31T23:00:00Z</fechaNac>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/IMG-20171222-WA0044.jpg</foto>
+      <nombre>Bubble</nombre>
+      <especie>Canina</especie>
+      <color>crema</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>5499</id>
+      <ficha>05187</ficha>
+      <raza>Mestizo</raza>
+      <fechaIngreso>2015-06-11T22:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2015-03-31T22:00:00Z</fechaNac>
+      <tamagno>Grande (26-44 kg)</tamagno>
+      <observaciones>
+        Adrián llegó al centro siendo un cachorro de dos meses. Tristemente no fue adoptado entonces y ha ido creciendo con nosotros y haciéndose invisible para el mundo. Ya tiene año y medio, está esterilizado y con sus vacunas al día. Nunca nadie lo ha llevado en acogida ni se interesado por él.
+        ¡¡Démosle una oportunidad!!
+        Adopta a Adri, o llévalo en acogida para poder difundirlo mejor sabiendo más cosas de él
+      </observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/IMG-20171222-WA0046.jpg</foto>
+      <nombre>Adrian </nombre>
+      <especie>Canina</especie>
+      <color>tricolor</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>5972</id>
+      <ficha>05662</ficha>
+      <raza>xAmerican Staffordshire Terrier</raza>
+      <fechaIngreso>2015-11-07T23:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2014-11-07T23:00:00Z</fechaNac>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <observaciones>
+        necesaria licencia y seguro de perro potencialmente peligroso para adoptar a Golf.
+        Golf actualmente no se encuentra en el centro por lo que si quieres adoptarlo debes contactar con nosotros en el 976836554.
+      </observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/05662 Golf.jpg</foto>
+      <nombre>Golf (G)</nombre>
+      <especie>Canina</especie>
+      <color>marron y blanco</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>4454</id>
+      <ficha>04163</ficha>
+      <raza>Cruce de PITBULL TERRIER</raza>
+      <fechaIngreso>2014-06-27T22:00:00Z</fechaIngreso>
+      <sexo>Hembra</sexo>
+      <fechaNac>2012-03-31T22:00:00Z</fechaNac>
+      <edad>Adulto (2 años)</edad>
+      <tamagno>Grande (26-44 kg)</tamagno>
+      <observaciones>
+        Necesita licencia para perros P.P.
 
-Quien la adopte deberá comprometerse a continuar con el tratamiento
+        Lleva en el centro mas de tres años.
 
-SE MERECE UN HOGAR
+        ELLA YA CONOCE LA CRUELDAD DEL abandono,
+        Es muy juguetona y cariñosa, convive sin problemas con otro perro.
 
-</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/05146 Mani.jpg</foto>
-			<nombre>Mani</nombre>
-			<especie>Canina</especie>
-			<color>negro y fuego</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>4927</id>
-			<ficha>04645</ficha>
-			<raza>Cruce de Pastor Alemán</raza>
-			<fechaIngreso>2014-11-16T23:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2013-11-16T23:00:00Z</fechaNac>
-			<edad>Adulto (1 año)</edad>
-			<tamagno>Grande (26-44 kg)</tamagno>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/04645 (640x480).jpg</foto>
-			<nombre>Oscar</nombre>
-			<especie>Canina</especie>
-			<color>Dorado  con mancha blanca</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>5753</id>
-			<ficha>05441</ficha>
-			<raza>xAmerican Staffordshire Terrier</raza>
-			<fechaIngreso>2015-08-21T22:00:00Z</fechaIngreso>
-			<sexo>Hembra</sexo>
-			<fechaNac>2015-02-21T23:00:00Z</fechaNac>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<observaciones>NECESARIA LICENCIA Y SEGURO DE PERRO POTENCIALMENTE PELIGROSO PARA ADOPTAR A ESTE ANIMAL
+        SE MERECE UN HOGAR.
+      </observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/elsa.jpg</foto>
+      <nombre>ELSA</nombre>
+      <especie>Canina</especie>
+      <color>ATIGRADA Y BLANCA</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>5295</id>
+      <ficha>04982</ficha>
+      <raza>boxerxAmerican Staffordshire Terrier</raza>
+      <fechaIngreso>2015-04-04T22:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2013-04-04T22:00:00Z</fechaNac>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <observaciones>
+        Fue recogido vagando por el campo.
+
+        Lleva dos años en el centro
+
+        Es  Jugueton y sociable con gente, pero no se lleva muy bien con otros machos
+
+        Necesita un buen hogar, ya se lo merece.
+
+        Who actualmente no se encuentra en el centro por lo que si quieres adoptarlo debes contactar con nosotros en el 976836554.
+      </observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/04982 Who.jpg</foto>
+      <nombre>Who (G)</nombre>
+      <especie>Canina</especie>
+      <color>negro y blanco</color>
+      <perdido>true</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>1567</id>
+      <ficha>01306</ficha>
+      <raza>Cruce Rottweiler</raza>
+      <fechaIngreso>2012-07-02T22:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2006-07-02T22:00:00Z</fechaNac>
+      <edad>Mayor (9 años)</edad>
+      <tamagno>Grande (26-44 kg)</tamagno>
+      <observaciones>
+        Rotty, Lleva en el Centro con nosotros 5 años.
+
+        Es bueno, nooo, LO SIGUIENTE.
+
+        NO SABEMOS PORQUE SE HA VUELTO INVISIBLE.
+
+        YA SE MERECE UNA CASITA
+
+        Para su adopcion es necesario poseer la licencia para tenencia de perros potencialmente peligrosos.
+        Está esterilizado y con vacunas al día. Actualmente no se encuentra en el centro por lo que si quieres adoptarlo ponte en contacto con nosotros en 976836554
+      </observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/01306.jpg</foto>
+      <nombre>ROTTY (G)</nombre>
+      <especie>Canina</especie>
+      <color>Negro y Fuego</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>5384</id>
+      <ficha>05075</ficha>
+      <raza>mestizo</raza>
+      <fechaIngreso>2015-05-11T22:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2014-07-11T22:00:00Z</fechaNac>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <observaciones>esterilizado</observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/05075 Fly.jpg</foto>
+      <nombre>Fly</nombre>
+      <especie>Canina</especie>
+      <color>negro y fuego</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>5305</id>
+      <ficha>05010</ficha>
+      <raza>mestizo</raza>
+      <fechaIngreso>2015-04-15T22:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2014-04-14T22:00:00Z</fechaNac>
+      <tamagno>Grande (26-44 kg)</tamagno>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/IMG_20171221_195800.png</foto>
+      <nombre>Vito</nombre>
+      <especie>Canina</especie>
+      <color>blanco y atigrado</color>
+      <perdido>true</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>5893</id>
+      <ficha>05584</ficha>
+      <raza>mestizo</raza>
+      <fechaIngreso>2015-10-02T22:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2013-10-02T22:00:00Z</fechaNac>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/05584 Martinez.jpg</foto>
+      <nombre>Martinez</nombre>
+      <especie>Canina</especie>
+      <color>NEGRO Y FUEGO</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>5965</id>
+      <ficha>05654</ficha>
+      <raza>Mestizo</raza>
+      <fechaIngreso>2015-11-02T23:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2015-03-03T23:00:00Z</fechaNac>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/gandalf1.jpg</foto>
+      <nombre>Gandalf</nombre>
+      <especie>Canina</especie>
+      <color>Marron</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>5582</id>
+      <ficha>05273</ficha>
+      <raza>mestiza</raza>
+      <fechaIngreso>2015-07-07T22:00:00Z</fechaIngreso>
+      <sexo>Hembra</sexo>
+      <fechaNac>2014-11-30T23:00:00Z</fechaNac>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/05273 Mia.jpg</foto>
+      <nombre>Mia</nombre>
+      <especie>Canina</especie>
+      <color>marron y blanco</color>
+      <perdido>true</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>5717</id>
+      <ficha>05407</ficha>
+      <raza>CRUCE PASTOR ALEMAN</raza>
+      <fechaIngreso>2015-08-10T22:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2014-10-10T22:00:00Z</fechaNac>
+      <edad>Joven (10 meses)</edad>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <observaciones>
+        esterilizado
+        Leishmania + en tratamiento de mantenimiento con alopurinol
+      </observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/05407 Houdini.jpg</foto>
+      <nombre>HOUDINI</nombre>
+      <especie>Canina</especie>
+      <color>NEGRO Y FUEGO</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>4931</id>
+      <ficha>04631</ficha>
+      <raza>Cruce staffordshire bull terrier</raza>
+      <fechaIngreso>2014-11-11T23:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2013-06-16T22:00:00Z</fechaNac>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <observaciones>
+        Es muy bueno, se lleva muy bien con las personas, pero necesita un hogar que no tenga otros perros, ya que no se lleva muy bien con sus congéneres,
+
+        Está esterilizado.
 
 
-AUN  no tiene un año, abandonada de cachorro, ya lleva en el centro 5 meses.  SE MERECE UN HOGAR
-	
-Se lleva muy  bien con las personas, NO SE lleva muy bien con otros perros.
-NECESITA UN HOGAR
+        necesaria licencia y seguro de perros potencialmente peligrososo
+        ESTÁ ESTERILIZADO
+        Brown actualmente no se encuentra en el centro por lo que si quieres adoptarlo debes contactar con nosotros en el 976836554.
+      </observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/04631.jpg</foto>
+      <nombre>BROWN (G)</nombre>
+      <especie>Canina</especie>
+      <color>MARRON</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>5923</id>
+      <ficha>05615</ficha>
+      <raza>cruce de american staffordshire terrier</raza>
+      <fechaIngreso>2015-10-13T22:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2013-12-31T23:00:00Z</fechaNac>
+      <tamagno>Grande (26-44 kg)</tamagno>
+      <observaciones>
+        Necesaria licencia y seguro para tenencia de animales potencialmente peligrosos para adoptar a este animal
 
-</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/monza1.jpg</foto>
-			<nombre>Monza</nombre>
-			<especie>Canina</especie>
-			<color>crema</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>4213</id>
-			<ficha>03937</ficha>
-			<raza>Cruce de Rottweiler y husky</raza>
-			<fechaIngreso>2014-04-27T22:00:00Z</fechaIngreso>
-			<sexo>Hembra</sexo>
-			<fechaNac>2013-04-27T22:00:00Z</fechaNac>
-			<tamagno>Grande (26-44 kg)</tamagno>
-			<observaciones>Fue encontrada en la calle con una herida muy grave en la pierna, por lo que hubo que hospitalizarla e intervenirla.
+        Es muy bueno con personas, es un abandonado , ES UN SUPERVIVIENTE, MERECE UN BUEN HOGAR.
 
-Es una superviviente autentica, perfecta conocedora del abandono y maltrato animal,pero ya ha curado sus heridas, tanto físicas como psicológicas.
-Esterilizada.
+        Titan actualmente no se encuentra en el centro por lo que si quieres adoptarlo debes contactar con nosotros en el 976836554.
+      </observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/05615 Titan.jpg</foto>
+      <nombre>Titan (G)</nombre>
+      <especie>Canina</especie>
+      <color>marron y blanco</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>5249</id>
+      <ficha>04945</ficha>
+      <raza>xAmerican Staffordshire Terrier</raza>
+      <fechaIngreso>2015-03-25T23:00:00Z</fechaIngreso>
+      <sexo>Hembra</sexo>
+      <fechaNac>2014-05-25T22:00:00Z</fechaNac>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <observaciones>
+        Necesita licencia de perro potencialmente peligroso y seguro de responsabilidad civil
 
-Ya está preparada para ir a un hogar. SE LO MERECE. 
- 
-Tiene muy buen carácter.  
-Esta Esterilizada.
+        Entró al centro con diez meses. Durante largo tiempo convivió sin proplemas con otra ppp del Centro, al principio todo fue bien, pero hace poco susgieron problemas entre ellas.
+        Actualmente no se encuentra en el centro por lo que si quieres adoptarla debes contactar con nosotros en 976836554.
+        Maribel está vacunada y esterilizada, ahora necesita un buen hogar
+        Recogida abandonada, vagando por el campo.  La pobre tan joven conoce perfectamente el maltrato animal.
+      </observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/04945 Maribel.jpg</foto>
+      <nombre>Maribel (G)</nombre>
+      <especie>Canina</especie>
+      <color>Blanco y negro</color>
+      <perdido>true</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>4080</id>
+      <ficha>03822</ficha>
+      <raza>Rottweiler</raza>
+      <fechaIngreso>2014-03-16T23:00:00Z</fechaIngreso>
+      <sexo>Hembra</sexo>
+      <fechaNac>2013-10-15T22:00:00Z</fechaNac>
+      <edad>Adulto (1 año)</edad>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <observaciones>
+        SE MERECE UN HOGAR!  lleva casi toda su vida en el centro.
 
-Para su adopcion es necesario poseer la licencia para tenencia de perros potencialmente peligrosos.</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/IMG-20171222-WA0112.jpg</foto>
-			<nombre>Marina </nombre>
-			<especie>Canina</especie>
-			<color>Negro y fuego</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>5326</id>
-			<ficha>05029</ficha>
-			<raza>Dogo Argentino con pit bull terrier</raza>
-			<fechaIngreso>2015-04-21T22:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2014-06-21T22:00:00Z</fechaNac>
-			<tamagno>Grande (26-44 kg)</tamagno>
-			<observaciones>necesaria licencia y seguro de tenencia de perros potencialmente peligrosos.
-Francisco es sordo pero comprende el lenguaje corporal. Necesita un propietario comprometido con su discapacidad.
-Lleva mas de dos años con nosotros.   Se merece un hogar ya.
-Francisco actualmente no se encuentra en el centro por lo que si quieres adoptarlo debes contactar con nosotros en el 976836554.</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/05029 men.jpg</foto>
-			<nombre>Francisco (G)</nombre>
-			<especie>Canina</especie>
-			<color>blanco</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>5458</id>
-			<ficha>05156</ficha>
-			<raza>mestizo</raza>
-			<fechaIngreso>2015-06-07T22:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2014-09-30T22:00:00Z</fechaNac>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<observaciones>Es un cachorro dominante que debe ser adoptado por alguien con manejo de animales y ganas de adiestrar a este animal</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/05135 telmo.jpg</foto>
-			<nombre>Otto </nombre>
-			<especie>Canina</especie>
-			<color>negro y fuego pecho blanco</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>4252</id>
-			<ficha>03970</ficha>
-			<raza>MESTIZO</raza>
-			<fechaIngreso>2014-05-09T22:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2010-05-11T22:00:00Z</fechaNac>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<observaciones>Es un perro sociable de tamaño medio, ya fué esterilizado y está un poco &quot;rellenito&quot;. Necesita un hogar donde le den buenos paseos.</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/IMG_20171222_133053.jpg</foto>
-			<nombre>LONGO</nombre>
-			<especie>Canina</especie>
-			<color>BLANCO Y MARRON</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>5560</id>
-			<ficha>05250</ficha>
-			<raza>mestizo</raza>
-			<fechaIngreso>2015-06-28T22:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2013-06-28T22:00:00Z</fechaNac>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<observaciones>Es un perro tranquilo, ya esterilizado, con muy buen carácter tanto con personas como con otros perros.</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/IMG_20171221_193539.jpg</foto>
-			<nombre>Caco</nombre>
-			<especie>Canina</especie>
-			<color>tricolor</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>7908</id>
-			<ficha>07543</ficha>
-			<raza>mestizo pastor aleman</raza>
-			<fechaIngreso>2017-10-02T22:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2017-01-02T23:00:00Z</fechaNac>
-			<tamagno>Grande (26-44 kg)</tamagno>
-			<peso>22,5</peso>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/07543.JPG</foto>
-			<nombre>Mcfly</nombre>
-			<especie>Canina</especie>
-			<color>NEGRO Y FUEGO</color>
-			<perdido>true</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>4151</id>
-			<ficha>03878</ficha>
-			<raza>Cruce de podenco</raza>
-			<fechaIngreso>2014-04-03T22:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2012-10-31T23:00:00Z</fechaNac>
-			<edad>Adulto (1 año)</edad>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<observaciones>Toby actualmente no se encuentra en el centro por lo que si quieres adoptarla debes contactar con nosotros en el 976836554.</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/03878 TOBY.JPG</foto>
-			<nombre>TOBY (G)</nombre>
-			<especie>Canina</especie>
-			<color>Negro y fuego</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>4386</id>
-			<ficha>04097</ficha>
-			<raza>Mestizo</raza>
-			<fechaIngreso>2014-06-06T22:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2013-06-06T22:00:00Z</fechaNac>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<observaciones>Es muy bueno.
-Esta esterilizado
+        Para su adopcion es necesario poseer la licencia para tenencia de perros potencialmente peligrosos.
+      </observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/03822 Lujan..JPG</foto>
+      <nombre>LUJAN </nombre>
+      <especie>Canina</especie>
+      <color>N/F</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>4552</id>
+      <ficha>04262</ficha>
+      <raza>cruce de LABRADOR</raza>
+      <fechaIngreso>2014-07-21T22:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2013-08-21T22:00:00Z</fechaNac>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <observaciones>
+        Es muy bueno.
 
-Se merece un hogar!!!</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/FB_IMG_1512335865684.jpg</foto>
-			<nombre>JOSE LUIS</nombre>
-			<especie>Canina</especie>
-			<color>CANELA Y BLANCO</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>5875</id>
-			<ficha>05568</ficha>
-			<raza>xAmerican Staffordshire Terrier</raza>
-			<fechaIngreso>2015-09-24T22:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2012-09-24T22:00:00Z</fechaNac>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<observaciones>Necesaria Liencia y seguro para la adopción de Pipol
+        Conoce muy bien el maltrato y abandonó.
+        En el centro ha conocido el cariño.
+        Pero ya está preparado para ir a un hogar.
+        Se lo merece!!
+      </observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/04262 marques.jpg</foto>
+      <nombre>MARQUES </nombre>
+      <especie>Canina</especie>
+      <color>NEGRO pecho blanco</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>4177</id>
+      <ficha>03898</ficha>
+      <raza>Mestizo</raza>
+      <fechaIngreso>2014-04-10T22:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2013-03-10T23:00:00Z</fechaNac>
+      <edad>Adulto (1 año)</edad>
+      <tamagno>Grande (26-44 kg)</tamagno>
+      <observaciones>
+        Lleva casi toda su vida con nosotros.
 
-Bueno con la gente.  
+        Es muy bueno.
+        ESTA esterilizado.
 
-Pipol actualmente no se encuentra en el centro por lo que si quieres adoptarlo debes contactar con nosotros en el 976836554.</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/05568 Pipol.jpg</foto>
-			<nombre>Pipol (G)</nombre>
-			<especie>Canina</especie>
-			<color>marron y blanco</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>3219</id>
-			<ficha>02965</ficha>
-			<raza>CRUCE PASTOR ALEMAN</raza>
-			<fechaIngreso>2013-08-19T22:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2013-01-19T23:00:00Z</fechaNac>
-			<edad>Adulto (1 año)</edad>
-			<tamagno>Grande (26-44 kg)</tamagno>
-			<observaciones>Lleva mucho tiempo con nosotros....ya se merece un hogar.</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/Nilo.jpg</foto>
-			<nombre>NILO </nombre>
-			<especie>Canina</especie>
-			<color>NEGRO Y FUEGO</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>7723</id>
-			<ficha>07361</ficha>
-			<raza>pit bull terrier</raza>
-			<fechaIngreso>2017-08-15T22:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2016-08-15T22:00:00Z</fechaNac>
-			<tamagno>Grande (26-44 kg)</tamagno>
-			<observaciones>Cachas actualmente no se encuentra en el centro por lo que si quieres adoptarlo debes contactar con nosotros en el 976836554.</observaciones>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/07361.jpg</foto>
-			<nombre>Cachas (G)</nombre>
-			<especie>Canina</especie>
-			<color>blanco y Azul</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>7993</id>
-			<ficha>07624</ficha>
-			<raza>Cruce de Pitt Bull Terrier</raza>
-			<fechaIngreso>2017-11-06T23:00:00Z</fechaIngreso>
-			<sexo>Hembra</sexo>
-			<fechaNac>2015-11-07T23:00:00Z</fechaNac>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<peso>25</peso>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/IMG-20171222-WA0137.jpg</foto>
-			<nombre>Ara</nombre>
-			<especie>Canina</especie>
-			<color>Atigrada Marrón</color>
-			<perdido>true</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>7995</id>
-			<ficha>07626</ficha>
-			<raza>Pit Bull Terrier</raza>
-			<fechaIngreso>2017-11-06T23:00:00Z</fechaIngreso>
-			<sexo>Hembra</sexo>
-			<fechaNac>2014-11-30T23:00:00Z</fechaNac>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/IMG_20171211_114859.png</foto>
-			<nombre>Julieta</nombre>
-			<especie>Canina</especie>
-			<color>Blanca y Canela</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>8160</id>
-			<ficha>07786</ficha>
-			<raza>Cruce de American Staffordshire Terrier</raza>
-			<fechaIngreso>2018-02-05T23:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2017-10-05T22:00:00Z</fechaNac>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/IMG-20180206-WA0010.jpg</foto>
-			<nombre>Piti</nombre>
-			<especie>Canina</especie>
-			<color>Blanco y marrón</color>
-			<perdido>true</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>8164</id>
-			<ficha>07790</ficha>
-			<raza>Cruce Pastor Alemán</raza>
-			<fechaIngreso>2018-02-07T23:00:00Z</fechaIngreso>
-			<sexo>Hembra</sexo>
-			<fechaNac>2017-02-07T23:00:00Z</fechaNac>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/_20180209_110416.jpg</foto>
-			<nombre>Lady</nombre>
-			<especie>Canina</especie>
-			<color>MARRON</color>
-			<perdido>true</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>8173</id>
-			<ficha>07797</ficha>
-			<raza>MESTIZO</raza>
-			<fechaIngreso>2018-02-16T23:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2017-02-18T23:00:00Z</fechaNac>
-			<tamagno>Grande (26-44 kg)</tamagno>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/_20180219_131601.jpg</foto>
-			<nombre>ANTARES</nombre>
-			<especie>Canina</especie>
-			<color>MARRON</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>8156</id>
-			<ficha>07775</ficha>
-			<raza>American Staffordshire Terrier</raza>
-			<fechaIngreso>2018-02-04T23:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<fechaNac>2017-09-04T22:00:00Z</fechaNac>
-			<edad>Joven (5 meses)</edad>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/IMG_20180205_100359.jpg</foto>
-			<nombre>Toby</nombre>
-			<especie>Canina</especie>
-			<color>crema</color>
-			<perdido>true</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-		<animal-en-adopcion>
-			<id>8181</id>
-			<ficha>07804</ficha>
-			<raza>MESTIZO</raza>
-			<fechaIngreso>2018-02-16T23:00:00Z</fechaIngreso>
-			<sexo>Macho</sexo>
-			<tamagno>Mediano (11-25 kg)</tamagno>
-			<foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/_20180219_143547.jpg</foto>
-			<nombre>Kuma</nombre>
-			<especie>Canina</especie>
-			<color>MARRON</color>
-			<perdido>false</perdido>
-			<disponible>1</disponible>
-		</animal-en-adopcion>
-	</result>
+        SE MERECE UN HOGAR YA!!
+      </observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/03898 JACK.JPG</foto>
+      <nombre>JACK</nombre>
+      <especie>Canina</especie>
+      <color>Crema</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>5435</id>
+      <ficha>05146</ficha>
+      <raza>Rotweiler</raza>
+      <fechaIngreso>2015-05-27T22:00:00Z</fechaIngreso>
+      <sexo>Hembra</sexo>
+      <fechaNac>2012-12-31T23:00:00Z</fechaNac>
+      <tamagno>Grande (26-44 kg)</tamagno>
+      <observaciones>
+        Se necesita licencia y seguro de perro potencialmente peligroso debido a su raza.
+
+        Lleva con nosotros casi un año.
+
+        ABANDONADA  por tener leishmaniosis
+        Es una perra super buena  y juguetona
+
+        Quien la adopte deberá comprometerse a continuar con el tratamiento
+
+        SE MERECE UN HOGAR
+
+      </observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/05146 Mani.jpg</foto>
+      <nombre>Mani</nombre>
+      <especie>Canina</especie>
+      <color>negro y fuego</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>4927</id>
+      <ficha>04645</ficha>
+      <raza>Cruce de Pastor Alemán</raza>
+      <fechaIngreso>2014-11-16T23:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2013-11-16T23:00:00Z</fechaNac>
+      <edad>Adulto (1 año)</edad>
+      <tamagno>Grande (26-44 kg)</tamagno>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/04645 (640x480).jpg</foto>
+      <nombre>Oscar</nombre>
+      <especie>Canina</especie>
+      <color>Dorado  con mancha blanca</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>5753</id>
+      <ficha>05441</ficha>
+      <raza>xAmerican Staffordshire Terrier</raza>
+      <fechaIngreso>2015-08-21T22:00:00Z</fechaIngreso>
+      <sexo>Hembra</sexo>
+      <fechaNac>2015-02-21T23:00:00Z</fechaNac>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <observaciones>
+        NECESARIA LICENCIA Y SEGURO DE PERRO POTENCIALMENTE PELIGROSO PARA ADOPTAR A ESTE ANIMAL
+
+
+        AUN  no tiene un año, abandonada de cachorro, ya lleva en el centro 5 meses.  SE MERECE UN HOGAR
+
+        Se lleva muy  bien con las personas, NO SE lleva muy bien con otros perros.
+        NECESITA UN HOGAR
+
+      </observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/monza1.jpg</foto>
+      <nombre>Monza</nombre>
+      <especie>Canina</especie>
+      <color>crema</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>4213</id>
+      <ficha>03937</ficha>
+      <raza>Cruce de Rottweiler y husky</raza>
+      <fechaIngreso>2014-04-27T22:00:00Z</fechaIngreso>
+      <sexo>Hembra</sexo>
+      <fechaNac>2013-04-27T22:00:00Z</fechaNac>
+      <tamagno>Grande (26-44 kg)</tamagno>
+      <observaciones>
+        Fue encontrada en la calle con una herida muy grave en la pierna, por lo que hubo que hospitalizarla e intervenirla.
+
+        Es una superviviente autentica, perfecta conocedora del abandono y maltrato animal,pero ya ha curado sus heridas, tanto físicas como psicológicas.
+        Esterilizada.
+
+        Ya está preparada para ir a un hogar. SE LO MERECE.
+
+        Tiene muy buen carácter.
+        Esta Esterilizada.
+
+        Para su adopcion es necesario poseer la licencia para tenencia de perros potencialmente peligrosos.
+      </observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/IMG-20171222-WA0112.jpg</foto>
+      <nombre>Marina </nombre>
+      <especie>Canina</especie>
+      <color>Negro y fuego</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>5326</id>
+      <ficha>05029</ficha>
+      <raza>Dogo Argentino con pit bull terrier</raza>
+      <fechaIngreso>2015-04-21T22:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2014-06-21T22:00:00Z</fechaNac>
+      <tamagno>Grande (26-44 kg)</tamagno>
+      <observaciones>
+        necesaria licencia y seguro de tenencia de perros potencialmente peligrosos.
+        Francisco es sordo pero comprende el lenguaje corporal. Necesita un propietario comprometido con su discapacidad.
+        Lleva mas de dos años con nosotros.   Se merece un hogar ya.
+        Francisco actualmente no se encuentra en el centro por lo que si quieres adoptarlo debes contactar con nosotros en el 976836554.
+      </observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/05029 men.jpg</foto>
+      <nombre>Francisco (G)</nombre>
+      <especie>Canina</especie>
+      <color>blanco</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>5458</id>
+      <ficha>05156</ficha>
+      <raza>mestizo</raza>
+      <fechaIngreso>2015-06-07T22:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2014-09-30T22:00:00Z</fechaNac>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <observaciones>Es un cachorro dominante que debe ser adoptado por alguien con manejo de animales y ganas de adiestrar a este animal</observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/05135 telmo.jpg</foto>
+      <nombre>Otto </nombre>
+      <especie>Canina</especie>
+      <color>negro y fuego pecho blanco</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>4252</id>
+      <ficha>03970</ficha>
+      <raza>MESTIZO</raza>
+      <fechaIngreso>2014-05-09T22:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2010-05-11T22:00:00Z</fechaNac>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <observaciones>Es un perro sociable de tamaño medio, ya fué esterilizado y está un poco &quot;rellenito&quot;. Necesita un hogar donde le den buenos paseos.</observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/IMG_20171222_133053.jpg</foto>
+      <nombre>LONGO</nombre>
+      <especie>Canina</especie>
+      <color>BLANCO Y MARRON</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>5560</id>
+      <ficha>05250</ficha>
+      <raza>mestizo</raza>
+      <fechaIngreso>2015-06-28T22:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2013-06-28T22:00:00Z</fechaNac>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <observaciones>Es un perro tranquilo, ya esterilizado, con muy buen carácter tanto con personas como con otros perros.</observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/IMG_20171221_193539.jpg</foto>
+      <nombre>Caco</nombre>
+      <especie>Canina</especie>
+      <color>tricolor</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>7908</id>
+      <ficha>07543</ficha>
+      <raza>mestizo pastor aleman</raza>
+      <fechaIngreso>2017-10-02T22:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2017-01-02T23:00:00Z</fechaNac>
+      <tamagno>Grande (26-44 kg)</tamagno>
+      <peso>22.5</peso>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/07543.JPG</foto>
+      <nombre>Mcfly</nombre>
+      <especie>Canina</especie>
+      <color>NEGRO Y FUEGO</color>
+      <perdido>true</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>4151</id>
+      <ficha>03878</ficha>
+      <raza>Cruce de podenco</raza>
+      <fechaIngreso>2014-04-03T22:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2012-10-31T23:00:00Z</fechaNac>
+      <edad>Adulto (1 año)</edad>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <observaciones>Toby actualmente no se encuentra en el centro por lo que si quieres adoptarla debes contactar con nosotros en el 976836554.</observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/03878 TOBY.JPG</foto>
+      <nombre>TOBY (G)</nombre>
+      <especie>Canina</especie>
+      <color>Negro y fuego</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>4386</id>
+      <ficha>04097</ficha>
+      <raza>Mestizo</raza>
+      <fechaIngreso>2014-06-06T22:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2013-06-06T22:00:00Z</fechaNac>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <observaciones>
+        Es muy bueno.
+        Esta esterilizado
+
+        Se merece un hogar!!!
+      </observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/FB_IMG_1512335865684.jpg</foto>
+      <nombre>JOSE LUIS</nombre>
+      <especie>Canina</especie>
+      <color>CANELA Y BLANCO</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>5875</id>
+      <ficha>05568</ficha>
+      <raza>xAmerican Staffordshire Terrier</raza>
+      <fechaIngreso>2015-09-24T22:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2012-09-24T22:00:00Z</fechaNac>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <observaciones>
+        Necesaria Liencia y seguro para la adopción de Pipol
+
+        Bueno con la gente.
+
+        Pipol actualmente no se encuentra en el centro por lo que si quieres adoptarlo debes contactar con nosotros en el 976836554.
+      </observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/05568 Pipol.jpg</foto>
+      <nombre>Pipol (G)</nombre>
+      <especie>Canina</especie>
+      <color>marron y blanco</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>3219</id>
+      <ficha>02965</ficha>
+      <raza>CRUCE PASTOR ALEMAN</raza>
+      <fechaIngreso>2013-08-19T22:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2013-01-19T23:00:00Z</fechaNac>
+      <edad>Adulto (1 año)</edad>
+      <tamagno>Grande (26-44 kg)</tamagno>
+      <observaciones>Lleva mucho tiempo con nosotros....ya se merece un hogar.</observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/Nilo.jpg</foto>
+      <nombre>NILO </nombre>
+      <especie>Canina</especie>
+      <color>NEGRO Y FUEGO</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>7723</id>
+      <ficha>07361</ficha>
+      <raza>pit bull terrier</raza>
+      <fechaIngreso>2017-08-15T22:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2016-08-15T22:00:00Z</fechaNac>
+      <tamagno>Grande (26-44 kg)</tamagno>
+      <observaciones>Cachas actualmente no se encuentra en el centro por lo que si quieres adoptarlo debes contactar con nosotros en el 976836554.</observaciones>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/07361.jpg</foto>
+      <nombre>Cachas (G)</nombre>
+      <especie>Canina</especie>
+      <color>blanco y Azul</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>7993</id>
+      <ficha>07624</ficha>
+      <raza>Cruce de Pitt Bull Terrier</raza>
+      <fechaIngreso>2017-11-06T23:00:00Z</fechaIngreso>
+      <sexo>Hembra</sexo>
+      <fechaNac>2015-11-07T23:00:00Z</fechaNac>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <peso>25</peso>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/IMG-20171222-WA0137.jpg</foto>
+      <nombre>Ara</nombre>
+      <especie>Canina</especie>
+      <color>Atigrada Marrón</color>
+      <perdido>true</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>7995</id>
+      <ficha>07626</ficha>
+      <raza>Pit Bull Terrier</raza>
+      <fechaIngreso>2017-11-06T23:00:00Z</fechaIngreso>
+      <sexo>Hembra</sexo>
+      <fechaNac>2014-11-30T23:00:00Z</fechaNac>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/IMG_20171211_114859.png</foto>
+      <nombre>Julieta</nombre>
+      <especie>Canina</especie>
+      <color>Blanca y Canela</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>8160</id>
+      <ficha>07786</ficha>
+      <raza>Cruce de American Staffordshire Terrier</raza>
+      <fechaIngreso>2018-02-05T23:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2017-10-05T22:00:00Z</fechaNac>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/IMG-20180206-WA0010.jpg</foto>
+      <nombre>Piti</nombre>
+      <especie>Canina</especie>
+      <color>Blanco y marrón</color>
+      <perdido>true</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>8164</id>
+      <ficha>07790</ficha>
+      <raza>Cruce Pastor Alemán</raza>
+      <fechaIngreso>2018-02-07T23:00:00Z</fechaIngreso>
+      <sexo>Hembra</sexo>
+      <fechaNac>2017-02-07T23:00:00Z</fechaNac>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/_20180209_110416.jpg</foto>
+      <nombre>Lady</nombre>
+      <especie>Canina</especie>
+      <color>MARRON</color>
+      <perdido>true</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>8173</id>
+      <ficha>07797</ficha>
+      <raza>MESTIZO</raza>
+      <fechaIngreso>2018-02-16T23:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2017-02-18T23:00:00Z</fechaNac>
+      <tamagno>Grande (26-44 kg)</tamagno>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/_20180219_131601.jpg</foto>
+      <nombre>ANTARES</nombre>
+      <especie>Canina</especie>
+      <color>MARRON</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>8156</id>
+      <ficha>07775</ficha>
+      <raza>American Staffordshire Terrier</raza>
+      <fechaIngreso>2018-02-04T23:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <fechaNac>2017-09-04T22:00:00Z</fechaNac>
+      <edad>Joven (5 meses)</edad>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/IMG_20180205_100359.jpg</foto>
+      <nombre>Toby</nombre>
+      <especie>Canina</especie>
+      <color>crema</color>
+      <perdido>true</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+    <animal-en-adopcion>
+      <id>8181</id>
+      <ficha>07804</ficha>
+      <raza>MESTIZO</raza>
+      <fechaIngreso>2018-02-16T23:00:00Z</fechaIngreso>
+      <sexo>Macho</sexo>
+      <tamagno>Mediano (11-25 kg)</tamagno>
+      <foto>//www.zaragoza.es/cont/paginas/IMSP/mascotas/_20180219_143547.jpg</foto>
+      <nombre>Kuma</nombre>
+      <especie>Canina</especie>
+      <color>MARRON</color>
+      <perdido>false</perdido>
+      <disponible>1</disponible>
+    </animal-en-adopcion>
+  </result>
 </resultado>

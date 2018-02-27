@@ -1,56 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.we.org/2001/XMLSchema-instance">
-	<xs:element name="resultado">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element name="totalCount" type="xs:string"/>
-				<xs:element name="start" type="xs:integer"/>
-				<xs:element name="rows" type="xs:integer"/>
-				<xs:element name="result" type="result"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="result">
-		<xs:element name="animal-en-adopcion" type="animal-en-adopcion"/>
-	</xs:element>
-	<xs:element name="animal-en-adopcion">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element name="id" type="xs:integer"/>
-				<xs:element name="ficha" type="xs:integer"/>
-				<xs:element name="raza" type="xs:string"/>
-				<xs:element name="fechaIngreso" type="xs:dateTime"/>
-				<xs:element name="sexo" type="xs:string">
-					<xs:simpleType>
-						<xs:restriction base="xs:string">
-							<xs:enumeration value="Macho"/>
-							<xs:enumeration value="Hembra"/>
-						</xs:restriction>
-					</xs:simpleType>
-				</xs:element>
-				<xs:element name="fechaNac" type="xs:dateTime"/>
-				<xs:element name="tamagno" type="xs:string"/>
-				<xs:element name="observaciones" type="xs:string"/>
-				<xs:element name="foto" type="xs:string"/>
-				<xs:element name="nombre" type="xs:string"/>
-				<xs:element name="especie" type="xs:string"/>
-				<xs:element name="color" type="xs:string"/>
-				<xs:element name="perdido" type="xs:string">
-					<xs:simpleType>
-						<xs:restriction base="xs:string">
-							<xs:enumeration value="false"/>
-							<xs:enumeration value="true"/>
-						</xs:restriction>
-					</xs:simpleType>
-				</xs:element>
-				<xs:element name="disponible" type="xs:integer">
-					<xs:simpleType>
-						<xs:restriction base="xs:integer">
-							<xs:enumeration value="1"/>
-						</xs:restriction>
-					</xs:simpleType>
-				</xs:element>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="https://w3schools.com"
+           xmlns="https://w3schools.com"
+           elementFormDefault="qualified">
+  <xs:element name="resultado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="totalCount" type="xs:string"/>
+        <xs:element name="start" type="xs:integer"/>
+        <xs:element name="rows" type="xs:integer"/>
+        <xs:element name="result" type="result"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name ="result">
+    <xs:sequence>
+      <xs:element name="animal-en-adopcion" type="animal-en-adopcion" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="animal-en-adopcion">
+    <xs:sequence>
+      <xs:element name="id" type="xs:integer"/>
+      <xs:element name="ficha" type="xs:integer"/>
+      <xs:element name="raza" type="xs:string"/>
+      <xs:element name="fechaIngreso" type="xs:dateTime"/>
+      <xs:element name="sexo">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Macho"/>
+            <xs:enumeration value="Hembra"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="fechaNac" type="xs:dateTime" minOccurs="0"/>
+      <xs:element name="edad" type="xs:string" minOccurs="0"/>
+      <xs:element name="tamagno" type="xs:string"/>
+      <xs:element name="peso" type="xs:float" minOccurs="0"/>
+      <xs:element name="observaciones" type="xs:string" minOccurs="0"/>
+      <xs:element name="foto" type="xs:string"/>
+      <xs:element name="nombre" type="xs:string"/>
+      <xs:element name="especie" type="xs:string"/>
+      <xs:element name="color" type="xs:string"/>
+      <xs:element name="perdido">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="false"/>
+            <xs:enumeration value="true"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="disponible">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:enumeration value="1"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
 </xs:schema>
