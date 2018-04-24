@@ -1,0 +1,18 @@
+XML
+
+<resultado xmlns="https://w3schools.com"
+
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+      xsi:noNamespaceSchemaLocation="nombre.xsd">
+
+ 
+
+XSD
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+
+           targetNamespace="https://w3schools.com"
+
+           xmlns="https://w3schools.com"
+
+           elementFormDefault="qualified">
