@@ -1,0 +1,48 @@
+1.
+
+for $b in doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio1bookstore.xml")//book
+let $c := $b//title/node()
+return $c
+
+2.
+
+for $b in doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio1bookstore.xml")//book
+let $c := $b
+where $c//price <= 30
+return $c
+
+
+3.
+
+for $b in doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio1bookstore.xml")//book[price<=30]
+let $c := $b
+return $c
+
+4.
+
+for $b in doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio1bookstore.xml")//book
+let $c := $b
+where $c//price <= 30
+return $c
+
+5.
+
+for $b in doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio1bookstore.xml")//book
+let $c := $b
+where $c//price <= 30
+let $c:= $c/title
+return $c
+
+6.
+
+for $c in doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio1bookstore.xml")//book
+where $c/year = 2005
+return <lib2005> {$c//title | $c//year }</lib2005>
+
+7.
+
+for $c in doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio1bookstore.xml")//book
+return <publicacion>{$c//year}</publicacion>
+
+let $c := doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio1bookstore.xml")//book
+return <publicacion>{$c//year}</publicacion>
