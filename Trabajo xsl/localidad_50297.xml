@@ -113,7 +113,7 @@
 			<estado_cielo periodo="00-24" descripcion="Despejado">11</estado_cielo>
 			<estado_cielo periodo="00-12" descripcion="Despejado">11</estado_cielo>
 			<estado_cielo periodo="12-24" descripcion="Despejado">11</estado_cielo>
-			<estado_cielo periodo="00-06" descripcion="Despejado">11n</estado_cielo>
+			<estado_cielo periodo="00-06" descripcion="Despejado">11</estado_cielo>
 			<estado_cielo periodo="06-12" descripcion="Despejado">11</estado_cielo>
 			<estado_cielo periodo="12-18" descripcion="Despejado">11</estado_cielo>
 			<estado_cielo periodo="18-24" descripcion="Despejado">11</estado_cielo>
