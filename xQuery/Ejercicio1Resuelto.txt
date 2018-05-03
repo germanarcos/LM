@@ -46,3 +46,18 @@ return <publicacion>{$c//year}</publicacion>
 
 let $c := doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio1bookstore.xml")//book
 return <publicacion>{$c//year}</publicacion>
+
+8.
+
+for $c in doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio1bookstore.xml")//book
+order by $c/@category, $c/title
+return $c
+
+9.
+
+//Algo asi hay que arreglar
+
+for $c in doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio1bookstore.xml")//book
+let $pIva:= $c/price*1.21
+order by $c//pIva
+return $c/title | $c/price | $pIva
