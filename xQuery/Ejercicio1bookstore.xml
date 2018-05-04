@@ -18,6 +18,7 @@
     <author>Per Bothner</author>
     <author>Kurt Cagle</author>
     <author>James Linn</author>
+    <author>repe</author>
     <author>Vaidyanathan Nagarajan</author>
     <year>2003</year>
     <price>49.99</price>
@@ -25,6 +26,7 @@
   <book category="WEB">
     <title lang="en">Learning XML</title>
     <author>Erik T. Ray</author>
+    <author>repe</author>
     <year>2003</year>
     <price>39.95</price>
   </book>

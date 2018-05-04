@@ -1,0 +1,69 @@
+1.
+let $c := doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio1bookstore.xml")//book
+return <total>{count($c)}</total>
+
+2.
+
+let $c := doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio1bookstore.xml")//book
+return (($c/title) , <total>{count($c)}</total>)
+
+3.
+
+let $c := doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio1bookstore.xml")//book
+return (max($c//price) , min($c//price))
+
+4.
+
+let $c := doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio1bookstore.xml")//book
+return <total>{sum($c/price)}</total>
+
+5.
+
+let $c := doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio1bookstore.xml")//book
+return ($c/price,<total>{sum($c/price)}</total>)
+
+6.
+
+for $c in doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio1bookstore.xml")//book
+return ($c/title,count($c/author))
+
+7.
+
+for $c in doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio1bookstore.xml")//book
+return <titulo>{$c/title/node(),('('),(count($c/author)),')'}</titulo>
+
+8.
+
+for $c in doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio1bookstore.xml")//book
+where ends-with($c/year, '3')
+return $c/title
+
+9.
+
+for $c in doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio1bookstore.xml")//book
+where starts-with($c/@category, 'C')
+return $c/title
+
+10.
+
+for $c in doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio1bookstore.xml")//book
+where contains($c/title, 'x') or contains($c/title, 'X')
+return $c/title
+
+11.
+
+for $c in doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio1bookstore.xml")//book
+return <titulo>{$c/title/node(), '(',string-length($c/title),')'}</titulo>
+
+12.
+
+let $c := doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio1bookstore.xml")//book
+let $b:= distinct-values($c/year)
+for $d in $b 
+return <año>{$d}</año>
+
+13.
+
+for $c in distinct-values(doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio1bookstore.xml")//book/author)
+order by string-length($c)
+return ($c)
