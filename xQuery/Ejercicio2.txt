@@ -8,3 +8,87 @@ return <losbailes>{$c/nombre/node()}</losbailes>
 
 for $c in doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio2bailes.xml")/bailes/baile
 return <losbailes>{($c/nombre/node(),'(', $c/plazas/node(),')')}</losbailes>
+
+3.
+
+for $c in doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio2bailes.xml")/bailes/baile
+where $c/precio>30
+return $c/nombre
+
+4.
+
+for $c in doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio2bailes.xml")/bailes/baile
+where $c/precio>30 and $c/precio/@moneda="euro"
+return $c/nombre
+
+5.
+
+for $c in doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio2bailes.xml")/bailes/baile
+where  contains($c/comienzo,"/1/")
+return ($c/nombre,$c/comienzo)
+
+6.
+
+for $c in doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio2bailes.xml")/bailes/baile
+order by $c/sala
+return ($c/profesor,$c/sala)
+
+7.
+
+for $profesor in distinct-values(doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio2bailes.xml")/bailes/baile/profesor)
+let $salas := doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio2bailes.xml")/bailes/baile[profesor=$profesor]/sala
+order by $profesor
+return 
+   <profesores>
+     <nombre>{$profesor}</nombre>
+     {$salas}
+   </profesores>
+
+8.
+
+let $c := doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio2bailes.xml")/bailes/baile
+let $b := avg($c/precio)
+return $b
+
+9.
+
+let $c := doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio2bailes.xml")/bailes/baile[sala='1']
+return sum($c/precio)
+
+10.
+
+let $c := doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio2bailes.xml")/bailes/baile[profesor='Jesus Lozano']
+return sum($c/plazas)
+
+11.
+
+for $c in doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio2bailes.xml")/bailes/baile[profesor='Laura Mendiola']
+return $c/plazas * $c/precio
+
+12.
+
+for $c in doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio2bailes.xml")/bailes/baile[profesor='Jesus Lozano']
+return $c/plazas * $c/precio
+
+13.
+
+for $c in doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio2bailes.xml")/bailes/baile[starts-with(profesor,'Laura')]
+return $c/plazas * $c/precio
+
+14.
+
+for $c in doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio2bailes.xml")/bailes/baile
+order by $c/nombre
+let $descuento := $c/precio *0.85
+return <baile>{($c/nombre,$c/precio,<descuento>$descuento</descuento>)}</baile>
+
+15.
+
+for $c in doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio2bailes.xml")/bailes/baile
+return <baile>{$c/*except $c/comienzo except $c/fin}</baile>
+
+16.
+
+let $c := doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio2bailes.xml")/bailes/baile
+
+return <html><body><table>{for $b in $c return <tr><td>{$b/nombre}</td><td>{$b/profesor}</td></tr>}</table></body></html>

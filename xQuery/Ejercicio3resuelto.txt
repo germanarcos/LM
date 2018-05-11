@@ -1,0 +1,17 @@
+let $c := doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio3libros.xml")//libro
+let $almacen := doc("C:\Users\usuario\Desktop\Asignaturas\LM\xQuery\Ejercicio3librosAlmacen.xml")/almacen
+return
+<html>
+  <body>
+    <table>
+      <tr>
+        <td>Codigo</td>
+        <td>Titulo</td>
+        <td>Año</td>
+        <td>Situacion</td>
+      </tr>
+      {for $libro in $c return
+        <tr><td>{$libro/data(@codigo)}</td><td>{$libro/titulo/node()}</td><td>{$libro/anyo/node()}</td><td>{if($libro/@codigo = $almacen/comprados/codigo)then 'Comprado' else 'Pendiente'}</td></tr>}
+    </table>
+  </body>
+</html>
