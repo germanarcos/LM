@@ -7,6 +7,11 @@
 
     <script type="text/javascript">
 	    function anade() {
+            var elemento = document.createElement("li");
+            var contenido = document.createTextNode("Nuevo elemento");
+            elemento.appendChild(contenido);
+            var lista = document.getElementById("lista");
+            lista.appendChild(elemento);
 
 	    }
     </script>
