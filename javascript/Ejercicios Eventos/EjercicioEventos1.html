@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>EjerciciosJavascriptEventos1</title>
+</head>
+
+<body>
+	<div>
+    	<p id = "p1">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed mattis enim vitae orci. Phasellus libero. Maecenas nisl arcu, consequat congue, commodo nec, commodo ultricies, turpis. Quisque sapien nunc, posuere vitae, rutrum et, luctus at, pede. Pellentesque massa ante, ornare id, aliquam vitae, ultrices porttitor, pede. Nullam sit amet nisl elementum elit convallis malesuada. Phasellus magna sem, semper quis, faucibus ut, rhoncus non, mi. Duis pellentesque, felis eu adipiscing ullamcorper, odio urna consequat arcu, at posuere ante quam non dolor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis scelerisque.
+    	</p>
+    	<a href="#" id="1" onclick="cambiar('1')";>Ocultar contenidos</a>
+	</div>
+    <br/>
+	<div>
+	    <p id = "p2">
+	        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed mattis enim vitae orci. Phasellus libero. Maecenas nisl arcu, consequat congue, commodo nec, commodo ultricies, turpis. Quisque sapien nunc, posuere vitae, rutrum et, luctus at, pede. Pellentesque massa ante, ornare id, aliquam vitae, ultrices porttitor, pede. Nullam sit amet nisl elementum elit convallis malesuada. Phasellus magna sem, semper quis, faucibus ut, rhoncus non, mi. Duis pellentesque, felis eu adipiscing ullamcorper, odio urna consequat arcu, at posuere ante quam non dolor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis scelerisque.
+	    </p>
+	    <a href="#" id="2" onclick="cambiar('2')";>Ocultar contenidos</a>
+	</div>
+    <br/>
+	<div>
+	    <p id="p3">
+	        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed mattis enim vitae orci. Phasellus libero. Maecenas nisl arcu, consequat congue, commodo nec, commodo ultricies, turpis. Quisque sapien nunc, posuere vitae, rutrum et, luctus at, pede. Pellentesque massa ante, ornare id, aliquam vitae, ultrices porttitor, pede. Nullam sit amet nisl elementum elit convallis malesuada. Phasellus magna sem, semper quis, faucibus ut, rhoncus non, mi. Duis pellentesque, felis eu adipiscing ullamcorper, odio urna consequat arcu, at posuere ante quam non dolor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis scelerisque.
+	    </p>
+	    <a href="#" id="3" onclick="cambiar('3')";>Ocultar contenidos</a>
+	</div>
+	<script type="text/javascript">
+	function cambiar(id){
+		
+		var elemento = document.getElementById('p'+id);
+		var enlace = document.getElementById(id);
+		if(elemento.style.display != "none"){
+		elemento.style.display ="none";
+		enlace.textContent = "Mostrar contenidos";
+		}
+		else{
+			elemento.style.display="block";
+			enlace.textContent = "Ocultar contenidos";
+		}
+	}
+	</script>
+</body>
+</html>
